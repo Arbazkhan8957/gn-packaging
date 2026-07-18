@@ -53,7 +53,7 @@ const Navbar = ({ theme, toggleTheme }) => {
         
         {/* Brand Logo */}
         <Link to="/" className="nav-brand">
-          <img src="/images/logo.jpg" alt="GN Packaging" style={{ height: '65px', width: '65px', objectFit: 'cover', borderRadius: '50%' }} />
+          <img src="images/logo.jpg" alt="GN Packaging" style={{ height: '65px', width: '65px', objectFit: 'cover', borderRadius: '50%' }} />
         </Link>
 
         {/* Desktop Navigation */}

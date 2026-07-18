@@ -5,13 +5,13 @@ import { User, Calendar, Clock, Share2, Link2, Mail, MessageSquare, ArrowLeft, A
 import './BlogDetails.css';
 
 const allPosts = [
-  { id: 1, title: "The Future of Sustainable Packaging Materials", author: "Sustainability Team", date: "Oct 12, 2026", readTime: "6 min read", category: "Sustainability", coverImg: "/images/gen_eco_1784230460993.jpg" },
-  { id: 2, title: "How Automation is Revolutionizing the Corrugated Industry", author: "Engineering Dept.", date: "Sep 28, 2026", readTime: "8 min read", category: "Innovation", coverImg: "/images/quality_automation_1784384417146.jpg" },
-  { id: 3, title: "Understanding Bursting Strength vs. Edge Crush Test (ECT)", author: "Quality Assurance", date: "Sep 15, 2026", readTime: "5 min read", category: "Engineering", coverImg: "/images/gallery_testing_1784385097873.jpg" },
-  { id: 4, title: "Optimizing Your Supply Chain with Just-In-Time Delivery", author: "Logistics Team", date: "Aug 30, 2026", readTime: "7 min read", category: "Supply Chain", coverImg: "/images/gen_logistics_1784230470758.jpg" },
-  { id: 5, title: "The Ultimate Guide to Flute Profiles: A, B, C, E, and F", author: "Structural Design", date: "Aug 12, 2026", readTime: "10 min read", category: "Education", coverImg: "/images/gallery_fluting_1784385068408.jpg" },
-  { id: 6, title: "Flexographic vs. Litho-Lamination Printing", author: "Marketing Dept.", date: "Jul 22, 2026", readTime: "4 min read", category: "Design", coverImg: "/images/gallery_printing_1784384864195.jpg" },
-  { id: 100, title: "The Global Kraft Paper Shortage: What You Need to Know", author: "Procurement Team", date: "Oct 20, 2026", readTime: "12 min read", category: "Exclusive Report", coverImg: "/images/media__1784228735621.jpg" }
+  { id: 1, title: "The Future of Sustainable Packaging Materials", author: "Sustainability Team", date: "Oct 12, 2026", readTime: "6 min read", category: "Sustainability", coverImg: "images/gen_eco_1784230460993.jpg" },
+  { id: 2, title: "How Automation is Revolutionizing the Corrugated Industry", author: "Engineering Dept.", date: "Sep 28, 2026", readTime: "8 min read", category: "Innovation", coverImg: "images/quality_automation_1784384417146.jpg" },
+  { id: 3, title: "Understanding Bursting Strength vs. Edge Crush Test (ECT)", author: "Quality Assurance", date: "Sep 15, 2026", readTime: "5 min read", category: "Engineering", coverImg: "images/gallery_testing_1784385097873.jpg" },
+  { id: 4, title: "Optimizing Your Supply Chain with Just-In-Time Delivery", author: "Logistics Team", date: "Aug 30, 2026", readTime: "7 min read", category: "Supply Chain", coverImg: "images/gen_logistics_1784230470758.jpg" },
+  { id: 5, title: "The Ultimate Guide to Flute Profiles: A, B, C, E, and F", author: "Structural Design", date: "Aug 12, 2026", readTime: "10 min read", category: "Education", coverImg: "images/gallery_fluting_1784385068408.jpg" },
+  { id: 6, title: "Flexographic vs. Litho-Lamination Printing", author: "Marketing Dept.", date: "Jul 22, 2026", readTime: "4 min read", category: "Design", coverImg: "images/gallery_printing_1784384864195.jpg" },
+  { id: 100, title: "The Global Kraft Paper Shortage: What You Need to Know", author: "Procurement Team", date: "Oct 20, 2026", readTime: "12 min read", category: "Exclusive Report", coverImg: "images/media__1784228735621.jpg" }
 ];
 
 const BlogDetails = () => {

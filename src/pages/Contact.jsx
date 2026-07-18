@@ -62,7 +62,7 @@ const Contact = () => {
             >
               <div style={{ position: 'relative', width: '100%', height: '100%', borderRadius: '16px', overflow: 'hidden', zIndex: 2 }}>
                 <img 
-                  src="/images/quality_automation_1784384417146.jpg" 
+                  src="images/quality_automation_1784384417146.jpg" 
                   alt="GN Packaging Factory" 
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
                 />

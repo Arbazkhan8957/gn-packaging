@@ -32,7 +32,7 @@ const Footer = () => {
             
             <div className="footer-col brand-col">
               <Link to="/" className="nav-brand mb-3" style={{ display: 'inline-block' }}>
-                <img src="/images/logo.jpg" alt="GN Packaging" style={{ height: '70px', width: '70px', objectFit: 'cover', background: 'white', padding: '4px', borderRadius: '50%', border: '2px solid var(--primary-light)' }} />
+                <img src="images/logo.jpg" alt="GN Packaging" style={{ height: '70px', width: '70px', objectFit: 'cover', background: 'white', padding: '4px', borderRadius: '50%', border: '2px solid var(--primary-light)' }} />
               </Link>
               <h3 style={{ color: '#ffffff', fontSize: '1.5rem', marginBottom: '1rem' }}>GN Packaging</h3>
               <p style={{ color: 'rgba(255,255,255,0.7)', lineHeight: 1.8, marginBottom: '1.5rem' }}>

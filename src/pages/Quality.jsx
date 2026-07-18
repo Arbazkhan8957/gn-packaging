@@ -56,7 +56,7 @@ const Quality = () => {
           <div style={{ flex: '1 1 300px', display: 'flex', justifyContent: 'center' }}>
             <div className="conic-container" style={{ borderRadius: '24px', padding: '6px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)', width: '100%', maxWidth: '500px', background: 'var(--bg-color)' }}>
               <img 
-                src="/images/gallery_kraft_reels_1784385058639.jpg" 
+                src="images/gallery_kraft_reels_1784385058639.jpg" 
                 alt="Quality Assurance" 
                 style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }}
               />
@@ -70,7 +70,7 @@ const Quality = () => {
         <div className="container">
           <div className="about-grid">
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="/images/gen_premium_1784230480978.jpg" alt="Certifications" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_premium_1784230480978.jpg" alt="Certifications" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="vmi-content">
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>GLOBAL STANDARDS</h4>
@@ -138,7 +138,7 @@ const Quality = () => {
             </div>
 
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="/images/gen_eco_1784230460993.jpg" alt="Lab Testing" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_eco_1784230460993.jpg" alt="Lab Testing" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@ const Quality = () => {
         <div className="container">
           <div className="about-grid">
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="/images/gen_factory_1784230451806.jpg" alt="Corrugated Manufacturing" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_factory_1784230451806.jpg" alt="Corrugated Manufacturing" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="vmi-content">
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>CORRUGATED EXCELLENCE</h4>
@@ -225,7 +225,7 @@ const Quality = () => {
             </div>
 
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="/images/quality_kraft_paper_1784384406402.jpg" alt="Premium Kraft Paper Rolls" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/quality_kraft_paper_1784384406402.jpg" alt="Premium Kraft Paper Rolls" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
           </div>
         </div>
@@ -236,7 +236,7 @@ const Quality = () => {
         <div className="container">
           <div className="about-grid">
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="/images/quality_automation_1784384417146.jpg" alt="Automated Die-Cutting Precision" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/quality_automation_1784384417146.jpg" alt="Automated Die-Cutting Precision" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="vmi-content">
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>SMART MANUFACTURING</h4>
@@ -304,7 +304,7 @@ const Quality = () => {
             </div>
 
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="/images/quality_sustainability_1784384560031.jpg" alt="Sustainable Corrugated Packaging" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/quality_sustainability_1784384560031.jpg" alt="Sustainable Corrugated Packaging" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
           </div>
         </div>
@@ -315,7 +315,7 @@ const Quality = () => {
         <div className="container">
           <div className="about-grid">
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="/images/quality_structural_1784384572547.jpg" alt="Structural Packaging Design CAD" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/quality_structural_1784384572547.jpg" alt="Structural Packaging Design CAD" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="vmi-content">
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>DESIGN INTEGRITY</h4>
@@ -383,7 +383,7 @@ const Quality = () => {
             </div>
 
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="/images/quality_climate_1784384584083.jpg" alt="Environmental Chamber Testing" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/quality_climate_1784384584083.jpg" alt="Environmental Chamber Testing" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
           </div>
         </div>
@@ -394,7 +394,7 @@ const Quality = () => {
         <div className="container">
           <div className="about-grid" style={{ direction: 'rtl' }}>
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%', direction: 'ltr' }}>
-              <img src="/images/gen_logistics_1784230470758.jpg" alt="Quality Team" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_logistics_1784230470758.jpg" alt="Quality Team" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="engineering-content" style={{ direction: 'ltr' }}>
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>THE EXPERTS</h4>
@@ -460,7 +460,7 @@ const Quality = () => {
       {/* Massive CTA Section (Matches Industries Template) */}
       <section className="sample-cta-section section-padding" style={{ position: 'relative', overflow: 'hidden' }}>
         <div className="hero-bg" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0, opacity: 0.15 }}>
-          <img src="/images/gen_hero_1784230442874.jpg" alt="Premium Packaging CTA" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          <img src="images/gen_hero_1784230442874.jpg" alt="Premium Packaging CTA" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
         <div className="container text-center" style={{ position: 'relative', zIndex: 10 }}>
           <div className="conic-container conic-card mx-auto" style={{ maxWidth: '800px', padding: '4rem 2rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

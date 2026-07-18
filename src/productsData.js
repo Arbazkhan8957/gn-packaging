@@ -3,7 +3,7 @@ export const products = [
     "id": 1,
     "title": "Eco-Friendly Pallet Wraps (Type B)",
     "desc": "Essential eco-friendly pallet wraps offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_1.jpg",
+    "img": "images/new_grid_1.jpg",
     "features": [
       "High Durability",
       "Moisture Resistant",
@@ -14,7 +14,7 @@ export const products = [
     "id": 2,
     "title": "Rigid Mailer Envelopes (Type C)",
     "desc": "Essential rigid mailer envelopes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_2.jpg",
+    "img": "images/new_grid_2.jpg",
     "features": [
       "Space Saving",
       "Stackable",
@@ -25,7 +25,7 @@ export const products = [
     "id": 3,
     "title": "Lightweight Mailer Envelopes (Type D)",
     "desc": "Essential lightweight mailer envelopes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_3.jpg",
+    "img": "images/new_grid_3.jpg",
     "features": [
       "Tear Resistant",
       "Space Saving",
@@ -36,7 +36,7 @@ export const products = [
     "id": 4,
     "title": "Custom Stand-up Pouches (Type E)",
     "desc": "Essential custom stand-up pouches offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_4.jpg",
+    "img": "images/new_grid_4.jpg",
     "features": [
       "Space Saving",
       "Easy Assembly",
@@ -47,7 +47,7 @@ export const products = [
     "id": 5,
     "title": "Rigid Void Fill (Type F)",
     "desc": "Essential rigid void fill offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_5.jpg",
+    "img": "images/new_grid_5.jpg",
     "features": [
       "Space Saving",
       "Sustainable",
@@ -58,7 +58,7 @@ export const products = [
     "id": 6,
     "title": "Biodegradable Kraft Bags (Type G)",
     "desc": "Essential biodegradable kraft bags offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_6.jpg",
+    "img": "images/new_grid_6.jpg",
     "features": [
       "Moisture Resistant",
       "High Durability",
@@ -69,7 +69,7 @@ export const products = [
     "id": 7,
     "title": "Rigid Die-cut Boxes (Type H)",
     "desc": "Essential rigid die-cut boxes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_7.jpg",
+    "img": "images/new_grid_7.jpg",
     "features": [
       "Easy Assembly",
       "Moisture Resistant",
@@ -80,7 +80,7 @@ export const products = [
     "id": 8,
     "title": "Flexible Carton Sealing Tape (Type I)",
     "desc": "Essential flexible carton sealing tape offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_8.jpg",
+    "img": "images/new_grid_8.jpg",
     "features": [
       "Shock Absorbing",
       "FDA Approved",
@@ -91,7 +91,7 @@ export const products = [
     "id": 9,
     "title": "Rigid Mailing Tubes (Type J)",
     "desc": "Essential rigid mailing tubes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_9.jpg",
+    "img": "images/new_grid_9.jpg",
     "features": [
       "Custom Printable",
       "Tear Resistant",
@@ -102,7 +102,7 @@ export const products = [
     "id": 10,
     "title": "Custom Stretch Film (Type K)",
     "desc": "Essential custom stretch film offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_10.jpg",
+    "img": "images/new_grid_10.jpg",
     "features": [
       "Easy Assembly",
       "Shock Absorbing",
@@ -113,7 +113,7 @@ export const products = [
     "id": 11,
     "title": "Lightweight Display Boxes (Type L)",
     "desc": "Essential lightweight display boxes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_11.jpg",
+    "img": "images/new_grid_11.jpg",
     "features": [
       "Moisture Resistant",
       "Custom Printable",
@@ -124,7 +124,7 @@ export const products = [
     "id": 12,
     "title": "Heavy-Duty Stand-up Pouches (Type M)",
     "desc": "Essential heavy-duty stand-up pouches offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_12.jpg",
+    "img": "images/new_grid_12.jpg",
     "features": [
       "Moisture Resistant",
       "Custom Printable",
@@ -135,7 +135,7 @@ export const products = [
     "id": 13,
     "title": "Lightweight Packing Peanuts (Type N)",
     "desc": "Essential lightweight packing peanuts offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_13.jpg",
+    "img": "images/new_grid_13.jpg",
     "features": [
       "Space Saving",
       "Tear Resistant",
@@ -146,7 +146,7 @@ export const products = [
     "id": 14,
     "title": "Waterproof Mailing Tubes (Type O)",
     "desc": "Essential waterproof mailing tubes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_14.jpg",
+    "img": "images/new_grid_14.jpg",
     "features": [
       "Space Saving",
       "Easy Assembly",
@@ -157,7 +157,7 @@ export const products = [
     "id": 15,
     "title": "Lightweight Pallet Wraps (Type P)",
     "desc": "Essential lightweight pallet wraps offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_15.jpg",
+    "img": "images/new_grid_15.jpg",
     "features": [
       "Moisture Resistant",
       "Stackable",
@@ -168,7 +168,7 @@ export const products = [
     "id": 16,
     "title": "Eco-Friendly Pallet Wraps (Type Q)",
     "desc": "Essential eco-friendly pallet wraps offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_16.jpg",
+    "img": "images/new_grid_16.jpg",
     "features": [
       "Moisture Resistant",
       "Tear Resistant",
@@ -179,7 +179,7 @@ export const products = [
     "id": 17,
     "title": "Recyclable Void Fill (Type R)",
     "desc": "Essential recyclable void fill offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_17.jpg",
+    "img": "images/new_grid_17.jpg",
     "features": [
       "Tear Resistant",
       "Space Saving",
@@ -190,7 +190,7 @@ export const products = [
     "id": 18,
     "title": "Eco-Friendly Mailer Envelopes (Type S)",
     "desc": "Essential eco-friendly mailer envelopes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_18.jpg",
+    "img": "images/new_grid_18.jpg",
     "features": [
       "FDA Approved",
       "Custom Printable",
@@ -201,7 +201,7 @@ export const products = [
     "id": 19,
     "title": "Heavy-Duty Pallet Wraps (Type T)",
     "desc": "Essential heavy-duty pallet wraps offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "/images/new_grid_19.jpg",
+    "img": "images/new_grid_19.jpg",
     "features": [
       "Tear Resistant",
       "Shock Absorbing",
@@ -212,7 +212,7 @@ export const products = [
     "id": 20,
     "title": "Heavy-Duty Mailing Tubes (Type U)",
     "desc": "Specialized heavy-duty mailing tubes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_20.jpg",
+    "img": "images/new_grid_20.jpg",
     "features": [
       "Space Saving",
       "FDA Approved",
@@ -223,7 +223,7 @@ export const products = [
     "id": 21,
     "title": "Premium Pallet Wraps (Type V)",
     "desc": "Specialized premium pallet wraps tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_21.jpg",
+    "img": "images/new_grid_21.jpg",
     "features": [
       "Tear Resistant",
       "FDA Approved",
@@ -234,7 +234,7 @@ export const products = [
     "id": 22,
     "title": "Lightweight Carton Sealing Tape (Type W)",
     "desc": "Specialized lightweight carton sealing tape tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_22.jpg",
+    "img": "images/new_grid_22.jpg",
     "features": [
       "Custom Printable",
       "Easy Assembly",
@@ -245,7 +245,7 @@ export const products = [
     "id": 23,
     "title": "Thermal Foam Inserts (Type X)",
     "desc": "Specialized thermal foam inserts tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_23.jpg",
+    "img": "images/new_grid_23.jpg",
     "features": [
       "Tear Resistant",
       "FDA Approved",
@@ -256,7 +256,7 @@ export const products = [
     "id": 24,
     "title": "Industrial Pallet Wraps (Type Y)",
     "desc": "Specialized industrial pallet wraps tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_24.jpg",
+    "img": "images/new_grid_24.jpg",
     "features": [
       "Tear Resistant",
       "Custom Printable",
@@ -267,7 +267,7 @@ export const products = [
     "id": 25,
     "title": "Biodegradable Die-cut Boxes (Type Z)",
     "desc": "Specialized biodegradable die-cut boxes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_25.jpg",
+    "img": "images/new_grid_25.jpg",
     "features": [
       "Tear Resistant",
       "Easy Assembly",
@@ -278,7 +278,7 @@ export const products = [
     "id": 26,
     "title": "Custom Shipping Boxes (Type A)",
     "desc": "Specialized custom shipping boxes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_26.jpg",
+    "img": "images/new_grid_26.jpg",
     "features": [
       "Sustainable",
       "FDA Approved",
@@ -289,7 +289,7 @@ export const products = [
     "id": 27,
     "title": "Heavy-Duty Mailing Tubes (Type B)",
     "desc": "Specialized heavy-duty mailing tubes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_27.jpg",
+    "img": "images/new_grid_27.jpg",
     "features": [
       "Sustainable",
       "FDA Approved",
@@ -300,7 +300,7 @@ export const products = [
     "id": 28,
     "title": "Heavy-Duty Stand-up Pouches (Type C)",
     "desc": "Specialized heavy-duty stand-up pouches tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_28.jpg",
+    "img": "images/new_grid_28.jpg",
     "features": [
       "Tear Resistant",
       "Space Saving",
@@ -311,7 +311,7 @@ export const products = [
     "id": 29,
     "title": "Corrugated Die-cut Boxes (Type D)",
     "desc": "Specialized corrugated die-cut boxes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_29.jpg",
+    "img": "images/new_grid_29.jpg",
     "features": [
       "Shock Absorbing",
       "Tear Resistant",
@@ -322,7 +322,7 @@ export const products = [
     "id": 30,
     "title": "Retail Food Containers (Type E)",
     "desc": "Specialized retail food containers tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_30.jpg",
+    "img": "images/new_grid_30.jpg",
     "features": [
       "Sustainable",
       "Shock Absorbing",
@@ -333,7 +333,7 @@ export const products = [
     "id": 31,
     "title": "Custom Pallet Wraps (Type F)",
     "desc": "Specialized custom pallet wraps tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_31.jpg",
+    "img": "images/new_grid_31.jpg",
     "features": [
       "FDA Approved",
       "Shock Absorbing",
@@ -344,7 +344,7 @@ export const products = [
     "id": 32,
     "title": "Rigid Pallet Wraps (Type G)",
     "desc": "Specialized rigid pallet wraps tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_32.jpg",
+    "img": "images/new_grid_32.jpg",
     "features": [
       "Sustainable",
       "Stackable",
@@ -355,7 +355,7 @@ export const products = [
     "id": 33,
     "title": "Corrugated Stretch Film (Type H)",
     "desc": "Specialized corrugated stretch film tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_33.jpg",
+    "img": "images/new_grid_33.jpg",
     "features": [
       "Easy Assembly",
       "FDA Approved",
@@ -366,7 +366,7 @@ export const products = [
     "id": 34,
     "title": "Industrial Bubble Wrap (Type I)",
     "desc": "Specialized industrial bubble wrap tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_34.jpg",
+    "img": "images/new_grid_34.jpg",
     "features": [
       "Stackable",
       "Moisture Resistant",
@@ -377,7 +377,7 @@ export const products = [
     "id": 35,
     "title": "Recyclable Mailer Envelopes (Type J)",
     "desc": "Specialized recyclable mailer envelopes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_35.jpg",
+    "img": "images/new_grid_35.jpg",
     "features": [
       "Stackable",
       "FDA Approved",
@@ -388,7 +388,7 @@ export const products = [
     "id": 36,
     "title": "Flexible Shipping Boxes (Type K)",
     "desc": "Specialized flexible shipping boxes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_36.jpg",
+    "img": "images/new_grid_36.jpg",
     "features": [
       "Easy Assembly",
       "Tear Resistant",
@@ -399,7 +399,7 @@ export const products = [
     "id": 37,
     "title": "Waterproof Mailing Tubes (Type L)",
     "desc": "Specialized waterproof mailing tubes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_37.jpg",
+    "img": "images/new_grid_37.jpg",
     "features": [
       "Custom Printable",
       "Sustainable",
@@ -410,7 +410,7 @@ export const products = [
     "id": 38,
     "title": "Lightweight Mailing Tubes (Type M)",
     "desc": "Specialized lightweight mailing tubes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_38.jpg",
+    "img": "images/new_grid_38.jpg",
     "features": [
       "Easy Assembly",
       "Space Saving",
@@ -421,7 +421,7 @@ export const products = [
     "id": 39,
     "title": "Heavy-Duty Die-cut Boxes (Type N)",
     "desc": "Specialized heavy-duty die-cut boxes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "/images/new_grid_39.jpg",
+    "img": "images/new_grid_39.jpg",
     "features": [
       "Sustainable",
       "Tear Resistant",
@@ -432,7 +432,7 @@ export const products = [
     "id": 40,
     "title": "Luxury Foam Inserts (Type O)",
     "desc": "Advanced luxury foam inserts with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_40.jpg",
+    "img": "images/new_grid_40.jpg",
     "features": [
       "FDA Approved",
       "Stackable",
@@ -443,7 +443,7 @@ export const products = [
     "id": 41,
     "title": "Biodegradable Bubble Wrap (Type P)",
     "desc": "Advanced biodegradable bubble wrap with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_41.jpg",
+    "img": "images/new_grid_41.jpg",
     "features": [
       "FDA Approved",
       "High Durability",
@@ -454,7 +454,7 @@ export const products = [
     "id": 42,
     "title": "Biodegradable Food Containers (Type Q)",
     "desc": "Advanced biodegradable food containers with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_42.jpg",
+    "img": "images/new_grid_42.jpg",
     "features": [
       "Stackable",
       "Tear Resistant",
@@ -465,7 +465,7 @@ export const products = [
     "id": 43,
     "title": "Eco-Friendly Foam Inserts (Type R)",
     "desc": "Advanced eco-friendly foam inserts with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_43.jpg",
+    "img": "images/new_grid_43.jpg",
     "features": [
       "FDA Approved",
       "Moisture Resistant",
@@ -476,7 +476,7 @@ export const products = [
     "id": 44,
     "title": "Retail Stand-up Pouches (Type S)",
     "desc": "Advanced retail stand-up pouches with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_44.jpg",
+    "img": "images/new_grid_44.jpg",
     "features": [
       "Easy Assembly",
       "FDA Approved",
@@ -487,7 +487,7 @@ export const products = [
     "id": 45,
     "title": "Wholesale Food Containers (Type T)",
     "desc": "Advanced wholesale food containers with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_45.jpg",
+    "img": "images/new_grid_45.jpg",
     "features": [
       "Sustainable",
       "Tear Resistant",
@@ -498,7 +498,7 @@ export const products = [
     "id": 46,
     "title": "Eco-Friendly Kraft Bags (Type U)",
     "desc": "Advanced eco-friendly kraft bags with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_46.jpg",
+    "img": "images/new_grid_46.jpg",
     "features": [
       "Easy Assembly",
       "Custom Printable",
@@ -509,7 +509,7 @@ export const products = [
     "id": 47,
     "title": "Lightweight Shipping Boxes (Type V)",
     "desc": "Advanced lightweight shipping boxes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_47.jpg",
+    "img": "images/new_grid_47.jpg",
     "features": [
       "Tear Resistant",
       "Shock Absorbing",
@@ -520,7 +520,7 @@ export const products = [
     "id": 48,
     "title": "Waterproof Foam Inserts (Type W)",
     "desc": "Advanced waterproof foam inserts with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_48.jpg",
+    "img": "images/new_grid_48.jpg",
     "features": [
       "Stackable",
       "FDA Approved",
@@ -531,7 +531,7 @@ export const products = [
     "id": 49,
     "title": "Lightweight Kraft Bags (Type X)",
     "desc": "Advanced lightweight kraft bags with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_49.jpg",
+    "img": "images/new_grid_49.jpg",
     "features": [
       "Sustainable",
       "Space Saving",
@@ -542,7 +542,7 @@ export const products = [
     "id": 50,
     "title": "Protective Mailer Envelopes (Type Y)",
     "desc": "Advanced protective mailer envelopes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_50.jpg",
+    "img": "images/new_grid_50.jpg",
     "features": [
       "Space Saving",
       "Custom Printable",
@@ -553,7 +553,7 @@ export const products = [
     "id": 51,
     "title": "Custom Pallet Wraps (Type Z)",
     "desc": "Advanced custom pallet wraps with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_51.jpg",
+    "img": "images/new_grid_51.jpg",
     "features": [
       "Tear Resistant",
       "Sustainable",
@@ -564,7 +564,7 @@ export const products = [
     "id": 52,
     "title": "Luxury Mailing Tubes (Type A)",
     "desc": "Advanced luxury mailing tubes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_52.jpg",
+    "img": "images/new_grid_52.jpg",
     "features": [
       "Moisture Resistant",
       "Custom Printable",
@@ -575,7 +575,7 @@ export const products = [
     "id": 53,
     "title": "Custom Shipping Boxes (Type B)",
     "desc": "Advanced custom shipping boxes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_53.jpg",
+    "img": "images/new_grid_53.jpg",
     "features": [
       "Tear Resistant",
       "Sustainable",
@@ -586,7 +586,7 @@ export const products = [
     "id": 54,
     "title": "Retail Stretch Film (Type C)",
     "desc": "Advanced retail stretch film with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_54.jpg",
+    "img": "images/new_grid_54.jpg",
     "features": [
       "High Durability",
       "Sustainable",
@@ -597,7 +597,7 @@ export const products = [
     "id": 55,
     "title": "Rigid Die-cut Boxes (Type D)",
     "desc": "Advanced rigid die-cut boxes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_55.jpg",
+    "img": "images/new_grid_55.jpg",
     "features": [
       "Shock Absorbing",
       "High Durability",
@@ -608,7 +608,7 @@ export const products = [
     "id": 56,
     "title": "Premium Stand-up Pouches (Type E)",
     "desc": "Advanced premium stand-up pouches with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_56.jpg",
+    "img": "images/new_grid_56.jpg",
     "features": [
       "Sustainable",
       "High Durability",
@@ -619,7 +619,7 @@ export const products = [
     "id": 57,
     "title": "Retail Shipping Boxes (Type F)",
     "desc": "Advanced retail shipping boxes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_57.jpg",
+    "img": "images/new_grid_57.jpg",
     "features": [
       "Shock Absorbing",
       "Tear Resistant",
@@ -630,7 +630,7 @@ export const products = [
     "id": 58,
     "title": "Heavy-Duty Mailing Tubes (Type G)",
     "desc": "Advanced heavy-duty mailing tubes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_58.jpg",
+    "img": "images/new_grid_58.jpg",
     "features": [
       "Shock Absorbing",
       "Space Saving",
@@ -641,7 +641,7 @@ export const products = [
     "id": 59,
     "title": "Rigid Mailer Envelopes (Type H)",
     "desc": "Advanced rigid mailer envelopes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "/images/new_grid_59.jpg",
+    "img": "images/new_grid_59.jpg",
     "features": [
       "Space Saving",
       "Shock Absorbing",
@@ -652,7 +652,7 @@ export const products = [
     "id": 60,
     "title": "Retail Mailer Envelopes (Type I)",
     "desc": "Top-quality retail mailer envelopes designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "/images/new_grid_60.jpg",
+    "img": "images/new_grid_60.jpg",
     "features": [
       "FDA Approved",
       "Shock Absorbing",
@@ -663,7 +663,7 @@ export const products = [
     "id": 61,
     "title": "Heavy-Duty Display Boxes (Type J)",
     "desc": "Top-quality heavy-duty display boxes designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "/images/new_grid_61.jpg",
+    "img": "images/new_grid_61.jpg",
     "features": [
       "Custom Printable",
       "High Durability",
@@ -674,7 +674,7 @@ export const products = [
     "id": 62,
     "title": "Corrugated Bubble Wrap (Type K)",
     "desc": "Top-quality corrugated bubble wrap designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "/images/new_grid_62.jpg",
+    "img": "images/new_grid_62.jpg",
     "features": [
       "Easy Assembly",
       "Stackable",
@@ -685,7 +685,7 @@ export const products = [
     "id": 63,
     "title": "Industrial Bubble Wrap (Type L)",
     "desc": "Top-quality industrial bubble wrap designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "/images/new_grid_63.jpg",
+    "img": "images/new_grid_63.jpg",
     "features": [
       "High Durability",
       "Space Saving",
@@ -696,7 +696,7 @@ export const products = [
     "id": 64,
     "title": "Waterproof Packing Peanuts (Type M)",
     "desc": "Top-quality waterproof packing peanuts designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "/images/new_grid_64.jpg",
+    "img": "images/new_grid_64.jpg",
     "features": [
       "Tear Resistant",
       "Easy Assembly",
@@ -707,7 +707,7 @@ export const products = [
     "id": 65,
     "title": "Recyclable Stand-up Pouches (Type N)",
     "desc": "Top-quality recyclable stand-up pouches designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "/images/new_grid_65.jpg",
+    "img": "images/new_grid_65.jpg",
     "features": [
       "Moisture Resistant",
       "Custom Printable",
@@ -718,7 +718,7 @@ export const products = [
     "id": 66,
     "title": "Heavy-Duty Foam Inserts (Type O)",
     "desc": "Top-quality heavy-duty foam inserts designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "/images/new_grid_66.jpg",
+    "img": "images/new_grid_66.jpg",
     "features": [
       "Moisture Resistant",
       "Tear Resistant",
@@ -729,7 +729,7 @@ export const products = [
     "id": 67,
     "title": "Luxury Kraft Bags (Type P)",
     "desc": "Top-quality luxury kraft bags designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "/images/new_grid_67.jpg",
+    "img": "images/new_grid_67.jpg",
     "features": [
       "Space Saving",
       "Moisture Resistant",
@@ -740,7 +740,7 @@ export const products = [
     "id": 68,
     "title": "Custom Food Containers (Type Q)",
     "desc": "Top-quality custom food containers designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "/images/new_grid_68.jpg",
+    "img": "images/new_grid_68.jpg",
     "features": [
       "Tear Resistant",
       "Sustainable",
@@ -751,7 +751,7 @@ export const products = [
     "id": 69,
     "title": "Retail Mailing Tubes (Type R)",
     "desc": "Top-quality retail mailing tubes designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "/images/new_grid_69.jpg",
+    "img": "images/new_grid_69.jpg",
     "features": [
       "FDA Approved",
       "Space Saving",
@@ -762,7 +762,7 @@ export const products = [
     "id": 70,
     "title": "Wholesale Stretch Film (Type S)",
     "desc": "Top-quality wholesale stretch film designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "/images/new_grid_70.jpg",
+    "img": "images/new_grid_70.jpg",
     "features": [
       "Tear Resistant",
       "Space Saving",

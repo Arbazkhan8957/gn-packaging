@@ -70,7 +70,7 @@ const GetQuote = () => {
             >
               <div style={{ position: 'relative', width: '100%', height: '100%', borderRadius: '16px', overflow: 'hidden', zIndex: 2 }}>
                 <img 
-                  src="/images/quality_structural_1784384572547.jpg" 
+                  src="images/quality_structural_1784384572547.jpg" 
                   alt="Custom Packaging Design" 
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
                 />

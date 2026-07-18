@@ -21,7 +21,7 @@ const Industries = () => {
       id: 'ecommerce',
       icon: <ShoppingBag size={32}/>,
       name: 'E-Commerce & Retail',
-      img: '/images/gen_eco_1784230460993.jpg',
+      img: 'images/gen_eco_1784230460993.jpg',
       desc: 'Robust, brand-enhancing packaging designed for the unboxing experience and safe transit.',
       products: ['Mailer Boxes', 'Custom Tape', 'Void Fillers']
     },
@@ -29,7 +29,7 @@ const Industries = () => {
       id: 'food',
       icon: <Utensils size={32}/>,
       name: 'Food & Beverage',
-      img: '/images/gen_premium_1784230480978.jpg',
+      img: 'images/gen_premium_1784230480978.jpg',
       desc: 'FDA-compliant, food-safe packaging with high barrier properties to preserve freshness.',
       products: ['Stand-up Pouches', 'Food Trays', 'Beverage Cartons']
     },
@@ -37,7 +37,7 @@ const Industries = () => {
       id: 'industrial',
       icon: <Truck size={32}/>,
       name: 'Industrial & Heavy Duty',
-      img: '/images/gen_logistics_1784230470758.jpg',
+      img: 'images/gen_logistics_1784230470758.jpg',
       desc: 'High bursting strength corrugated boxes for automotive parts, machinery, and bulk items.',
       products: ['Heavy Duty RSC', 'Pallet Boxes', 'Custom Foam Inserts']
     },
@@ -45,7 +45,7 @@ const Industries = () => {
       id: 'pharma',
       icon: <Stethoscope size={32}/>,
       name: 'Pharmaceuticals',
-      img: '/images/gen_factory_1784230451806.jpg',
+      img: 'images/gen_factory_1784230451806.jpg',
       desc: 'Sterile, tamper-evident packaging ensuring safety and compliance with global standards.',
       products: ['Blister Card Packaging', 'Vial Boxes', 'Temperature Control']
     },
@@ -53,7 +53,7 @@ const Industries = () => {
       id: 'electronics',
       icon: <Zap size={32}/>,
       name: 'Electronics',
-      img: '/images/gen_rolls_1784230490842.jpg',
+      img: 'images/gen_rolls_1784230490842.jpg',
       desc: 'Anti-static and shock-absorbent packaging to protect sensitive electronic components.',
       products: ['ESD Boxes', 'Rigid Setup Boxes', 'Molded Pulp Inserts']
     },
@@ -61,7 +61,7 @@ const Industries = () => {
       id: 'cosmetics',
       icon: <Briefcase size={32}/>,
       name: 'Cosmetics & Beauty',
-      img: '/images/gen_hero_1784230442874.jpg',
+      img: 'images/gen_hero_1784230442874.jpg',
       desc: 'Luxury packaging with premium finishes to elevate brand perception on retail shelves.',
       products: ['Folding Cartons', 'Magnetic Rigid Boxes', 'Foil Stamped Sleeves']
     }
@@ -107,7 +107,7 @@ const Industries = () => {
           <div style={{ flex: '1 1 300px', display: 'flex', justifyContent: 'center' }}>
             <div className="conic-container" style={{ borderRadius: '24px', padding: '6px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)', width: '100%', maxWidth: '500px', background: 'var(--bg-color)' }}>
               <img 
-                src="/images/gen_logistics_1784230470758.jpg" 
+                src="images/gen_logistics_1784230470758.jpg" 
                 alt="Industries Packaging Manufacturing" 
                 style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }}
               />
@@ -223,7 +223,7 @@ const Industries = () => {
           <div className="products-grid">
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
               <div style={{ position: 'relative', zIndex: 2, background: 'var(--bg-color)', borderRadius: '16px', height: '100%', overflow: 'hidden' }}>
-                <img src="/images/gen_rolls_1784230490842.jpg" alt="Electronics Materials" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+                <img src="images/gen_rolls_1784230490842.jpg" alt="Electronics Materials" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
                 <div style={{ padding: '1.5rem' }}>
                   <h3>Anti-Static (ESD) Foams</h3>
                   <p className="text-muted mb-0">Crucial for the <strong>Electronics</strong> sector. Our ESD foams dissipate static charges, ensuring sensitive microchips and hardware arrive perfectly intact.</p>
@@ -233,7 +233,7 @@ const Industries = () => {
             
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
               <div style={{ position: 'relative', zIndex: 2, background: 'var(--bg-color)', borderRadius: '16px', height: '100%', overflow: 'hidden' }}>
-                <img src="/images/gen_premium_1784230480978.jpg" alt="Food Barrier Films" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+                <img src="images/gen_premium_1784230480978.jpg" alt="Food Barrier Films" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
                 <div style={{ padding: '1.5rem' }}>
                   <h3>Moisture & Oxygen Barriers</h3>
                   <p className="text-muted mb-0">Engineered for the <strong>Food & Beverage</strong> industry. Multi-layer laminate structures that dramatically extend product shelf-life and preserve flavor.</p>
@@ -243,7 +243,7 @@ const Industries = () => {
 
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
               <div style={{ position: 'relative', zIndex: 2, background: 'var(--bg-color)', borderRadius: '16px', height: '100%', overflow: 'hidden' }}>
-                <img src="/images/gen_logistics_1784230470758.jpg" alt="Heavy Duty Corrugated" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
+                <img src="images/gen_logistics_1784230470758.jpg" alt="Heavy Duty Corrugated" style={{ width: '100%', height: '200px', objectFit: 'cover' }} />
                 <div style={{ padding: '1.5rem' }}>
                   <h3>Triple-Wall Corrugated</h3>
                   <p className="text-muted mb-0">The backbone of <strong>Industrial & Automotive</strong> shipping. Offers immense stacking strength and impact resistance for thousands of pounds of freight.</p>
@@ -313,7 +313,7 @@ const Industries = () => {
               <Link to="/contact" className="btn btn-primary">Discuss Your Project</Link>
             </div>
             <div className="case-study-image conic-container conic-card" style={{ padding: '4px' }}>
-              <img src="/images/gen_rolls_1784230490842.jpg" alt="Electronics Case Study" style={{ width: '100%', height: 'auto', borderRadius: '14px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_rolls_1784230490842.jpg" alt="Electronics Case Study" style={{ width: '100%', height: 'auto', borderRadius: '14px', position: 'relative', zIndex: 2 }} />
             </div>
           </div>
         </div>
@@ -324,7 +324,7 @@ const Industries = () => {
         <div className="container">
           <div className="about-grid" style={{ direction: 'rtl' }}>
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%', direction: 'ltr' }}>
-              <img src="/images/gen_factory_1784230451806.jpg" alt="CAD Packaging Design" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_factory_1784230451806.jpg" alt="CAD Packaging Design" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="engineering-content" style={{ direction: 'ltr' }}>
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>STRUCTURAL DESIGN</h4>
@@ -398,7 +398,7 @@ const Industries = () => {
         <div className="container">
           <div className="about-grid">
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="/images/gen_eco_1784230460993.jpg" alt="Vendor Managed Inventory" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_eco_1784230460993.jpg" alt="Vendor Managed Inventory" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="vmi-content">
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>ENTERPRISE PARTNERSHIPS</h4>
@@ -430,7 +430,7 @@ const Industries = () => {
         <div className="container">
           <div className="about-grid">
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="/images/gen_logistics_1784230470758.jpg" alt="Global Supply Chain" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_logistics_1784230470758.jpg" alt="Global Supply Chain" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="logistics-content">
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>WORLDWIDE DISTRIBUTION</h4>
@@ -525,7 +525,7 @@ const Industries = () => {
       {/* Massive CTA Section */}
       <section className="sample-cta-section section-padding" style={{ position: 'relative', overflow: 'hidden' }}>
         <div className="hero-bg" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0, opacity: 0.15 }}>
-          <img src="/images/gen_premium_1784230480978.jpg" alt="Premium Packaging CTA" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          <img src="images/gen_premium_1784230480978.jpg" alt="Premium Packaging CTA" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
         <div className="container text-center" style={{ position: 'relative', zIndex: 10 }}>
           <div className="conic-container conic-card mx-auto" style={{ maxWidth: '800px', padding: '4rem 2rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

@@ -26,7 +26,7 @@ const Blog = () => {
       date: "Oct 12, 2026",
       author: "Sustainability Team",
       category: "Sustainability",
-      img: "/images/gen_eco_1784230460993.jpg",
+      img: "images/gen_eco_1784230460993.jpg",
       direction: "ltr"
     },
     {
@@ -36,7 +36,7 @@ const Blog = () => {
       date: "Sep 28, 2026",
       author: "Engineering Dept.",
       category: "Innovation",
-      img: "/images/quality_automation_1784384417146.jpg",
+      img: "images/quality_automation_1784384417146.jpg",
       direction: "rtl"
     },
     {
@@ -46,7 +46,7 @@ const Blog = () => {
       date: "Sep 15, 2026",
       author: "Quality Assurance",
       category: "Engineering",
-      img: "/images/gallery_testing_1784385097873.jpg",
+      img: "images/gallery_testing_1784385097873.jpg",
       direction: "ltr"
     },
     {
@@ -56,7 +56,7 @@ const Blog = () => {
       date: "Aug 30, 2026",
       author: "Logistics Team",
       category: "Supply Chain",
-      img: "/images/gen_logistics_1784230470758.jpg",
+      img: "images/gen_logistics_1784230470758.jpg",
       direction: "rtl"
     },
     {
@@ -66,7 +66,7 @@ const Blog = () => {
       date: "Aug 12, 2026",
       author: "Structural Design",
       category: "Education",
-      img: "/images/gallery_fluting_1784385068408.jpg",
+      img: "images/gallery_fluting_1784385068408.jpg",
       direction: "ltr"
     },
     {
@@ -76,7 +76,7 @@ const Blog = () => {
       date: "Jul 22, 2026",
       author: "Marketing Dept.",
       category: "Design",
-      img: "/images/gallery_printing_1784384864195.jpg",
+      img: "images/gallery_printing_1784384864195.jpg",
       direction: "rtl"
     }
   ];
@@ -139,7 +139,7 @@ const Blog = () => {
             >
               <div style={{ position: 'relative', width: '100%', height: '100%', borderRadius: '16px', overflow: 'hidden', zIndex: 2 }}>
                 <img 
-                  src="/images/gallery_testing_1784385097873.jpg" 
+                  src="images/gallery_testing_1784385097873.jpg" 
                   alt="Packaging Insights" 
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
                 />
@@ -190,7 +190,7 @@ const Blog = () => {
           
           <div className="about-grid" style={{ alignItems: 'center' }}>
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%', minHeight: '400px', borderRadius: '20px' }}>
-              <img src="/images/media__1784228735621.jpg" alt="Paper Mill Partner" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/media__1784228735621.jpg" alt="Paper Mill Partner" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
               <div style={{ position: 'absolute', top: '1.5rem', left: '1.5rem', zIndex: 3, background: 'var(--btn-gradient)', color: 'white', padding: '0.5rem 1rem', borderRadius: '99px', fontWeight: 600, fontSize: '0.85rem' }}>
                 Exclusive Report
               </div>

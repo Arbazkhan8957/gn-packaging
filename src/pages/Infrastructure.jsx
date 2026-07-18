@@ -9,52 +9,52 @@ const Infrastructure = () => {
 
   const slides = [
     {
-      image: '/images/gen_factory_1784230451806.jpg',
+      image: 'images/gen_factory_1784230451806.jpg',
       title: '500,000 Sq. Ft. of Manufacturing Power',
       desc: 'Handling over 10,000 tons of kraft paper inventory.'
     },
     {
-      image: '/images/gen_rolls_1784230490842.jpg',
+      image: 'images/gen_rolls_1784230490842.jpg',
       title: 'BHS High-Speed Corrugators',
       desc: 'Producing A, B, C, E, and F flutes at 350 meters per minute.'
     },
     {
-      image: '/images/gen_premium_1784230480978.jpg',
+      image: 'images/gen_premium_1784230480978.jpg',
       title: '8-Color HD Flexo Printing',
       desc: 'Flawless graphic fidelity for retail-ready packaging.'
     },
     {
-      image: '/images/gen_logistics_1784230470758.jpg',
+      image: 'images/gen_logistics_1784230470758.jpg',
       title: 'High-Volume Dispatch',
       desc: 'Automated loading docks dispatching 100+ truckloads daily.'
     },
     {
-      image: '/images/gen_eco_1784230460993.jpg',
+      image: 'images/gen_eco_1784230460993.jpg',
       title: '100% Sustainable Practices',
       desc: 'Utilizing eco-friendly adhesives and zero-waste water treatment.'
     },
     {
-      image: '/images/gen_hero_1784230442874.jpg',
+      image: 'images/gen_hero_1784230442874.jpg',
       title: 'Precision Die-Cutting',
       desc: 'Rotary and flatbed die-cutters ensuring millimeter-perfect creases.'
     },
     {
-      image: '/images/highres_1.jpg',
+      image: 'images/highres_1.jpg',
       title: 'Automated Palletizing',
       desc: 'Inline robotic arms flawlessly stack finished cartons for transit.'
     },
     {
-      image: '/images/media__1784144365412.png',
+      image: 'images/media__1784144365412.png',
       title: 'Rigorous Quality Control',
       desc: 'In-house lab performing ECT, BCT, and moisture analysis on every batch.'
     },
     {
-      image: '/images/media__1784144984928.png',
+      image: 'images/media__1784144984928.png',
       title: 'Custom R&D Prototyping',
       desc: 'Kongsberg CAD cutters bringing your packaging ideas to life instantly.'
     },
     {
-      image: '/images/media__1784223119917.jpg',
+      image: 'images/media__1784223119917.jpg',
       title: 'End-to-End Enterprise Packaging',
       desc: 'Your trusted partner for all corrugated and customized packaging needs.'
     }
@@ -118,7 +118,7 @@ const Infrastructure = () => {
           <div style={{ flex: '1 1 300px', display: 'flex', justifyContent: 'center' }}>
             <div className="conic-container" style={{ borderRadius: '24px', padding: '6px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)', width: '100%', maxWidth: '500px', background: 'var(--bg-color)' }}>
               <img 
-                src="/images/gen_eco_1784230460993.jpg" 
+                src="images/gen_eco_1784230460993.jpg" 
                 alt="Sustainable Packaging Infrastructure" 
                 style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }}
               />
@@ -132,7 +132,7 @@ const Infrastructure = () => {
         <div className="container">
           <div className="about-grid">
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="/images/gen_rolls_1784230490842.jpg" alt="Machines in factory" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_rolls_1784230490842.jpg" alt="Machines in factory" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="capacity-content">
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>PRODUCTION CAPACITY</h4>
@@ -177,7 +177,7 @@ const Infrastructure = () => {
         <div className="container">
           <div className="about-grid">
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="/images/gen_rolls_1784230490842.jpg" alt="Raw Material Warehousing" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_rolls_1784230490842.jpg" alt="Raw Material Warehousing" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="raw-material-content">
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>SUPPLY CHAIN STABILITY</h4>
@@ -209,7 +209,7 @@ const Infrastructure = () => {
         <div className="container">
           <div className="about-grid" style={{ direction: 'rtl' }}>
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%', direction: 'ltr' }}>
-              <img src="/images/gen_factory_1784230451806.jpg" alt="Steel Rule Die Making" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_factory_1784230451806.jpg" alt="Steel Rule Die Making" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="tooling-content" style={{ direction: 'ltr' }}>
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>PRECISION ENGINEERING</h4>
@@ -332,7 +332,7 @@ const Infrastructure = () => {
         <div className="container">
           <div className="about-grid" style={{ direction: 'rtl' }}>
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%', direction: 'ltr' }}>
-              <img src="/images/gen_premium_1784230480978.jpg" alt="Testing Lab" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_premium_1784230480978.jpg" alt="Testing Lab" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="lab-content" style={{ direction: 'ltr' }}>
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>QUALITY CONTROL</h4>
@@ -372,7 +372,7 @@ const Infrastructure = () => {
         <div className="container">
           <div className="about-grid">
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="/images/gen_factory_1784230451806.jpg" alt="R&D Lab" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_factory_1784230451806.jpg" alt="R&D Lab" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="rnd-content">
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>INNOVATION</h4>
@@ -404,7 +404,7 @@ const Infrastructure = () => {
         <div className="container">
           <div className="about-grid" style={{ direction: 'rtl' }}>
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%', direction: 'ltr' }}>
-              <img src="/images/gen_logistics_1784230470758.jpg" alt="Dispatch Bays" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/gen_logistics_1784230470758.jpg" alt="Dispatch Bays" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="dispatch-content" style={{ direction: 'ltr' }}>
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>FULFILLMENT</h4>
@@ -552,12 +552,12 @@ const Infrastructure = () => {
           <h2 className="section-title mb-5">Infrastructure Gallery</h2>
           <div className="products-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))' }}>
             {[
-              '/images/gen_factory_1784230451806.jpg', 
-              '/images/gen_logistics_1784230470758.jpg', 
-              '/images/gen_rolls_1784230490842.jpg', 
-              '/images/gen_eco_1784230460993.jpg', 
-              '/images/gen_premium_1784230480978.jpg', 
-              '/images/gen_hero_1784230442874.jpg'
+              'images/gen_factory_1784230451806.jpg', 
+              'images/gen_logistics_1784230470758.jpg', 
+              'images/gen_rolls_1784230490842.jpg', 
+              'images/gen_eco_1784230460993.jpg', 
+              'images/gen_premium_1784230480978.jpg', 
+              'images/gen_hero_1784230442874.jpg'
             ].map((src, i) => (
               <div key={i} className="conic-container conic-card" style={{ padding: '4px', height: '250px' }}>
                 <img src={src} className="rounded-image" alt={`Gallery ${i+1}`} style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />

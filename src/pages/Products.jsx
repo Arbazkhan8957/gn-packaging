@@ -51,7 +51,7 @@ const Products = () => {
           <div style={{ flex: '1 1 300px', display: 'flex', justifyContent: 'center' }}>
             <div className="conic-container" style={{ borderRadius: '24px', padding: '6px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)', width: '100%', maxWidth: '500px', background: 'var(--bg-color)' }}>
               <img 
-                src="/images/gen_premium_1784230480978.jpg" 
+                src="images/gen_premium_1784230480978.jpg" 
                 alt="Premium GN Packaging Products" 
                 style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }}
               />

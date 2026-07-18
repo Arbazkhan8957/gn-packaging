@@ -14,26 +14,26 @@ const Gallery = () => {
   };
 
   const images = [
-    { id: 1, category: 'factory', src: '/images/gallery_floor_1784384899363.jpg', title: 'Factory Floor', desc: 'Our state-of-the-art automated corrugated plant.' },
-    { id: 2, category: 'product', src: '/images/quality_sustainability_1784384560031.jpg', title: 'Eco-Friendly Kraft', desc: '100% repulpable and sustainable box materials.' },
-    { id: 3, category: 'machine', src: '/images/quality_automation_1784384417146.jpg', title: 'Laser Die-Cutting', desc: 'Sub-millimeter precision cutting technology.' },
-    { id: 4, category: 'warehouse', src: '/images/gallery_stacking_1784384876850.jpg', title: 'Distribution Hub', desc: 'Massive storage for just-in-time delivery.' },
-    { id: 5, category: 'product', src: '/images/gen_premium_1784230480978.jpg', title: 'Premium Retail', desc: 'Luxury finishing for high-end brands.' },
-    { id: 6, category: 'factory', src: '/images/gen_factory_1784230451806.jpg', title: 'Corrugator Line', desc: 'High-speed automated board manufacturing.' },
-    { id: 7, category: 'product', src: '/images/gen_eco_1784230460993.jpg', title: 'E-Commerce Mailers', desc: 'Secure, brand-enhancing transit packaging.' },
-    { id: 8, category: 'machine', src: '/images/gallery_printing_1784384864195.jpg', title: 'Flexo Printing', desc: 'Vibrant, high-speed inline color printing.' },
-    { id: 9, category: 'warehouse', src: '/images/gallery_delivery_1784384887523.jpg', title: 'Global Dispatch', desc: 'Loading docks operating 24/7 for fast transit.' },
-    { id: 10, category: 'factory', src: '/images/gallery_kraft_reels_1784385058639.jpg', title: 'Kraft Paper Sourcing', desc: 'Massive reels of premium raw material ready for corrugation.' },
-    { id: 11, category: 'product', src: '/images/gallery_fluting_1784385068408.jpg', title: 'Precision Fluting', desc: 'Architecturally perfect corrugated waves for maximum strength.' },
-    { id: 12, category: 'machine', src: '/images/gallery_stitching_1784385083657.jpg', title: 'Automated Assembly', desc: 'High-speed stitching and folding for flawless box construction.' },
-    { id: 13, category: 'factory', src: '/images/gallery_testing_1784385097873.jpg', title: 'Quality Testing Lab', desc: 'Rigorous Bursting Strength and Edge Crush testing.' },
-    { id: 14, category: 'product', src: '/images/quality_structural_1784384572547.jpg', title: 'CAD Prototyping', desc: '3D structural engineering and physical samples.' },
-    { id: 15, category: 'warehouse', src: '/images/gen_logistics_1784230470758.jpg', title: 'Logistics Fleet', desc: 'Seamlessly transporting packaging directly to your supply chain.' },
-    { id: 16, category: 'product', src: '/images/gen_hero_1784230442874.jpg', title: 'Luxury Display Cartons', desc: 'High-end retail packaging designed to captivate.' },
-    { id: 17, category: 'factory', src: '/images/gen_rolls_1784230490842.jpg', title: 'Raw Material Inventory', desc: 'Endless aisles of specialized corrugated paper stock.' },
-    { id: 18, category: 'machine', src: '/images/highres_1_1784301104322.jpg', title: 'Automated Conveyors', desc: 'Smart routing systems moving boxes at lightning speed.' },
-    { id: 19, category: 'factory', src: '/images/quality_kraft_paper_1784384406402.jpg', title: 'Virgin Kraft Paper', desc: 'Pristine, ultra-strong virgin kraft paper inspection.' },
-    { id: 20, category: 'warehouse', src: '/images/quality_climate_1784384584083.jpg', title: 'Climate Chamber', desc: 'Extreme environment testing for export packaging.' }
+    { id: 1, category: 'factory', src: 'images/gallery_floor_1784384899363.jpg', title: 'Factory Floor', desc: 'Our state-of-the-art automated corrugated plant.' },
+    { id: 2, category: 'product', src: 'images/quality_sustainability_1784384560031.jpg', title: 'Eco-Friendly Kraft', desc: '100% repulpable and sustainable box materials.' },
+    { id: 3, category: 'machine', src: 'images/quality_automation_1784384417146.jpg', title: 'Laser Die-Cutting', desc: 'Sub-millimeter precision cutting technology.' },
+    { id: 4, category: 'warehouse', src: 'images/gallery_stacking_1784384876850.jpg', title: 'Distribution Hub', desc: 'Massive storage for just-in-time delivery.' },
+    { id: 5, category: 'product', src: 'images/gen_premium_1784230480978.jpg', title: 'Premium Retail', desc: 'Luxury finishing for high-end brands.' },
+    { id: 6, category: 'factory', src: 'images/gen_factory_1784230451806.jpg', title: 'Corrugator Line', desc: 'High-speed automated board manufacturing.' },
+    { id: 7, category: 'product', src: 'images/gen_eco_1784230460993.jpg', title: 'E-Commerce Mailers', desc: 'Secure, brand-enhancing transit packaging.' },
+    { id: 8, category: 'machine', src: 'images/gallery_printing_1784384864195.jpg', title: 'Flexo Printing', desc: 'Vibrant, high-speed inline color printing.' },
+    { id: 9, category: 'warehouse', src: 'images/gallery_delivery_1784384887523.jpg', title: 'Global Dispatch', desc: 'Loading docks operating 24/7 for fast transit.' },
+    { id: 10, category: 'factory', src: 'images/gallery_kraft_reels_1784385058639.jpg', title: 'Kraft Paper Sourcing', desc: 'Massive reels of premium raw material ready for corrugation.' },
+    { id: 11, category: 'product', src: 'images/gallery_fluting_1784385068408.jpg', title: 'Precision Fluting', desc: 'Architecturally perfect corrugated waves for maximum strength.' },
+    { id: 12, category: 'machine', src: 'images/gallery_stitching_1784385083657.jpg', title: 'Automated Assembly', desc: 'High-speed stitching and folding for flawless box construction.' },
+    { id: 13, category: 'factory', src: 'images/gallery_testing_1784385097873.jpg', title: 'Quality Testing Lab', desc: 'Rigorous Bursting Strength and Edge Crush testing.' },
+    { id: 14, category: 'product', src: 'images/quality_structural_1784384572547.jpg', title: 'CAD Prototyping', desc: '3D structural engineering and physical samples.' },
+    { id: 15, category: 'warehouse', src: 'images/gen_logistics_1784230470758.jpg', title: 'Logistics Fleet', desc: 'Seamlessly transporting packaging directly to your supply chain.' },
+    { id: 16, category: 'product', src: 'images/gen_hero_1784230442874.jpg', title: 'Luxury Display Cartons', desc: 'High-end retail packaging designed to captivate.' },
+    { id: 17, category: 'factory', src: 'images/gen_rolls_1784230490842.jpg', title: 'Raw Material Inventory', desc: 'Endless aisles of specialized corrugated paper stock.' },
+    { id: 18, category: 'machine', src: 'images/highres_1_1784301104322.jpg', title: 'Automated Conveyors', desc: 'Smart routing systems moving boxes at lightning speed.' },
+    { id: 19, category: 'factory', src: 'images/quality_kraft_paper_1784384406402.jpg', title: 'Virgin Kraft Paper', desc: 'Pristine, ultra-strong virgin kraft paper inspection.' },
+    { id: 20, category: 'warehouse', src: 'images/quality_climate_1784384584083.jpg', title: 'Climate Chamber', desc: 'Extreme environment testing for export packaging.' }
   ];
 
   const filteredImages = filter === 'all' ? images : images.filter(img => img.category === filter);

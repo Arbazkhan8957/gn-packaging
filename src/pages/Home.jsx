@@ -54,7 +54,7 @@ function Home() {
           <div style={{ flex: '1 1 300px', display: 'flex', justifyContent: 'center' }}>
             <div className="conic-container" style={{ borderRadius: '24px', padding: '6px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)', width: '100%', maxWidth: '500px', background: 'var(--bg-color)' }}>
               <img 
-                src="/images/gen_hero_1784230442874.jpg" 
+                src="images/gen_hero_1784230442874.jpg" 
                 alt="Cardboard Boxes" 
                 style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }}
               />
@@ -108,7 +108,7 @@ function Home() {
             >
               <div className="conic-container" style={{ borderRadius: '24px', padding: '4px', width: '100%' }}>
                 <img
-                  src="/images/gen_factory_1784230451806.jpg" 
+                  src="images/gen_factory_1784230451806.jpg" 
                   alt="Corporate Office" 
                   className="about-img-main"
                   style={{ borderRadius: '20px', display: 'block', position: 'relative', zIndex: 2, width: '100%', height: 'auto' }}
@@ -151,7 +151,7 @@ function Home() {
             >
               <div className="conic-container" style={{ borderRadius: '24px', padding: '4px', width: '100%' }}>
                 <img
-                  src="/images/gen_factory_1784230451806.jpg" 
+                  src="images/gen_factory_1784230451806.jpg" 
                   alt="Production Line" 
                   className="about-img-main"
                   style={{ borderRadius: '20px', display: 'block', position: 'relative', zIndex: 2, width: '100%', height: 'auto' }}
@@ -248,7 +248,7 @@ function Home() {
             >
               <div className="conic-container" style={{ borderRadius: '24px', padding: '4px', height: '100%' }}>
                 <img
-                  src="/images/gen_rolls_1784230490842.jpg" 
+                  src="images/gen_rolls_1784230490842.jpg" 
                   alt="Large Manufacturing Facility" 
                   className="about-img-main"
                   style={{ width: '100%', height: 'auto', borderRadius: '20px', display: 'block', position: 'relative', zIndex: 2 }}
@@ -277,17 +277,17 @@ function Home() {
               {
                 title: 'Corrugated Boxes',
                 desc: 'Heavy-duty shipping cartons for all industries.',
-                img: '/images/gen_hero_1784230442874.jpg'
+                img: 'images/gen_hero_1784230442874.jpg'
               },
               {
                 title: 'Custom Printed Cartons',
                 desc: 'High-quality offset and flexo printing.',
-                img: '/images/gen_premium_1784230480978.jpg'
+                img: 'images/gen_premium_1784230480978.jpg'
               },
               {
                 title: 'Eco-Friendly Mailers',
                 desc: '100% recyclable e-commerce solutions.',
-                img: '/images/gen_eco_1784230460993.jpg'
+                img: 'images/gen_eco_1784230460993.jpg'
               }
             ].map((product, i) => (
               <motion.div key={i} variants={fadeIn} className="product-card conic-container conic-card" style={{ display: 'flex', flexDirection: 'column' }}>
@@ -370,7 +370,7 @@ function Home() {
             >
               <div className="conic-container" style={{ borderRadius: '24px', padding: '4px', width: '100%' }}>
                 <img
-                  src="/images/gen_eco_1784230460993.jpg" 
+                  src="images/gen_eco_1784230460993.jpg" 
                   alt="Eco Friendly Packaging" 
                   className="about-img-main"
                   style={{ borderRadius: '20px', display: 'block', position: 'relative', zIndex: 2, width: '100%', height: 'auto' }}
@@ -415,10 +415,10 @@ function Home() {
           <h2 className="section-title mb-4">Industries We Serve</h2>
           <div className="products-grid mt-4" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))' }}>
             {[
-              { name: 'Food & Beverage', img: '/images/gen_eco_1784230460993.jpg' },
-              { name: 'E-Commerce', img: '/images/gen_hero_1784230442874.jpg' },
-              { name: 'Pharmaceuticals', img: '/images/gen_factory_1784230451806.jpg' },
-              { name: 'Electronics', img: '/images/gen_premium_1784230480978.jpg' }
+              { name: 'Food & Beverage', img: 'images/gen_eco_1784230460993.jpg' },
+              { name: 'E-Commerce', img: 'images/gen_hero_1784230442874.jpg' },
+              { name: 'Pharmaceuticals', img: 'images/gen_factory_1784230451806.jpg' },
+              { name: 'Electronics', img: 'images/gen_premium_1784230480978.jpg' }
             ].map((industry, i) => (
               <motion.div key={i} variants={fadeIn} initial="hidden" whileInView="visible" viewport={{ once: true }} className="product-card conic-container conic-card" style={{ padding: '1rem', display: 'flex', flexDirection: 'column' }}>
                 <img src={industry.img} alt={industry.name} style={{ width: '100%', height: 'auto', borderRadius: '12px', marginBottom: '1rem', position: 'relative', zIndex: 2 }} />
@@ -503,7 +503,7 @@ function Home() {
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
               <div className="conic-container" style={{ borderRadius: '24px', padding: '4px', width: '100%', boxShadow: '0 20px 40px rgba(15,37,72,0.1)' }}>
-                <img src="/images/gen_logistics_1784230470758.jpg" alt="Logistics Network" style={{ width: '100%', height: 'auto', borderRadius: '20px', display: 'block', position: 'relative', zIndex: 2 }} />
+                <img src="images/gen_logistics_1784230470758.jpg" alt="Logistics Network" style={{ width: '100%', height: 'auto', borderRadius: '20px', display: 'block', position: 'relative', zIndex: 2 }} />
               </div>
             </motion.div>
           </div>
