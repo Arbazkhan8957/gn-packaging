@@ -1,0 +1,122 @@
+/* Quality CSS */
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.cert-card {
+  padding: 3rem 2rem;
+  transition: transform 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-10px);
+}
+
+.cert-icon {
+  color: var(--secondary-color);
+  margin-bottom: 1.5rem;
+}
+
+.cert-card h3 {
+  margin-bottom: 1rem;
+}
+
+.cert-card p {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+/* Testing Process */
+.testing-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 4rem;
+}
+
+.process-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.process-item {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.process-step-num {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--primary-light);
+  flex-shrink: 0;
+  border: 2px solid var(--primary-color);
+}
+
+.process-item h4 {
+  margin-bottom: 0.25rem;
+  font-size: 1.125rem;
+}
+
+.process-item p {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.testing-images {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.testing-images img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Quality Team Stats */
+.q-team-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.text-primary {
+  color: var(--primary-light);
+}
+
+.mb-1 { margin-bottom: 1rem; }
+
+@media (max-width: 992px) {
+  .cert-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .testing-grid {
+    grid-template-columns: 1fr;
+  }
+  .q-team-stats {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+}

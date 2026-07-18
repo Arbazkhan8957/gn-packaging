@@ -1,0 +1,186 @@
+/* Contact CSS */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.info-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.info-item h4 {
+  margin-bottom: 0.5rem;
+}
+
+.info-item p {
+  color: var(--text-muted);
+  line-height: 1.6;
+  font-size: 0.875rem;
+}
+
+.contact-form-panel {
+  padding: 3rem;
+}
+
+.contact-form-panel .form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form-panel label {
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.contact-form-panel input, .contact-form-panel textarea, .contact-form-panel select {
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid var(--card-border);
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form-panel select {
+  appearance: none;
+}
+
+.contact-form-panel input:focus, .contact-form-panel textarea:focus, .contact-form-panel select:focus {
+  outline: none;
+  border-color: var(--primary-light);
+}
+
+.dept-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.dept-card {
+  padding: 3rem 2rem;
+}
+
+.dept-icon {
+  color: var(--secondary-color);
+}
+
+.dept-card h3 {
+  margin-bottom: 1rem;
+}
+
+.dept-card p {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.dept-card a {
+  display: block;
+  color: var(--primary-light);
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+/* Map */
+.map-container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.map-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.map-overlay {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  padding: 3rem;
+  max-width: 400px;
+}
+
+.map-overlay h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.map-overlay p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* WhatsApp Float */
+.whatsapp-float {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 992px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .dept-grid {
+    grid-template-columns: 1fr;
+  }
+  .map-overlay {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  .contact-form-panel {
+    padding: 1.5rem;
+  }
+}
