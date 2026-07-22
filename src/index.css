@@ -725,3 +725,136 @@ main {
   }
 }
 
+/* =========================================
+   Comprehensive Mobile Responsiveness
+   ========================================= */
+
+/* Prevent any horizontal overflow (bubbling) */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  /* Scale down all major headings */
+  .hero-title {
+    font-size: 2.2rem !important;
+  }
+  
+  .section-title {
+    font-size: 1.75rem !important;
+  }
+  
+  .section-subtitle {
+    font-size: 1rem !important;
+  }
+
+  /* Force all structural grids to stack vertically */
+  .about-grid, 
+  .stats-grid, 
+  .products-grid, 
+  .process-grid, 
+  .clients-grid,
+  .features-grid,
+  .faq-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  
+  /* For elements that use flex instead of grid */
+  .hero-container > div {
+    flex: 1 1 100% !important;
+    text-align: center !important;
+  }
+  
+  .hero-content {
+    text-align: center !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Reduce padding on mobile */
+  .section-padding {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+  
+  .section-padding-large {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  /* Make cards smaller and more compact */
+  .conic-card {
+    padding: 1.25rem !important;
+  }
+  
+  /* Adjust image wrappers so they don't break containers */
+  .about-image-wrapper {
+    margin-bottom: 2rem;
+  }
+  
+  /* Fix floating badges over images so they don't get cut off */
+  .about-img-float {
+    position: relative !important;
+    bottom: auto !important;
+    right: auto !important;
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 10;
+  }
+  
+  /* Top Bar adjustments */
+  .top-bar-container {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+    padding: 0.5rem 1rem;
+  }
+  
+  .top-bar-info {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Footer adjustments */
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+    text-align: center;
+  }
+  
+  .footer-links ul {
+    align-items: center;
+  }
+  
+  .social-links {
+    justify-content: center;
+  }
+  
+  .contact-info li {
+    justify-content: center;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.8rem !important;
+  }
+  
+  .section-title {
+    font-size: 1.5rem !important;
+  }
+  
+  .conic-container {
+    padding: 2px !important;
+  }
+}

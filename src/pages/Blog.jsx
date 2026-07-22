@@ -26,7 +26,7 @@ const Blog = () => {
       date: "Oct 12, 2026",
       author: "Sustainability Team",
       category: "Sustainability",
-      img: "images/gen_eco_1784230460993.jpg",
+      img: "images/die_cut_mailer.jpg",
       direction: "ltr"
     },
     {
@@ -56,7 +56,7 @@ const Blog = () => {
       date: "Aug 30, 2026",
       author: "Logistics Team",
       category: "Supply Chain",
-      img: "images/gen_logistics_1784230470758.jpg",
+      img: "images/standard_corrugated.jpg",
       direction: "rtl"
     },
     {

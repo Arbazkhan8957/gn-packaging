@@ -13,14 +13,12 @@ const Products = () => {
 
   const [activeFilter, setActiveFilter] = useState('All');
   
-  const industries = ['All', 'Food & Beverage', 'Industrial', 'E-Commerce', 'Cosmetics'];
-  
-  // Deterministically assign an industry based on product ID for the dummy data
-  const getIndustry = (id) => industries[(id % 4) + 1];
+  // Extract unique categories from products data
+  const categories = ['All', ...new Set(products.map(p => p.category))];
 
   const filteredProducts = activeFilter === 'All' 
     ? products 
-    : products.filter(product => getIndustry(product.id) === activeFilter);
+    : products.filter(product => product.category === activeFilter);
 
   return (
     <div className="products-page">
@@ -51,7 +49,7 @@ const Products = () => {
           <div style={{ flex: '1 1 300px', display: 'flex', justifyContent: 'center' }}>
             <div className="conic-container" style={{ borderRadius: '24px', padding: '6px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)', width: '100%', maxWidth: '500px', background: 'var(--bg-color)' }}>
               <img 
-                src="images/gen_premium_1784230480978.jpg" 
+                src="images/premium_box.jpg" 
                 alt="Premium GN Packaging Products" 
                 style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }}
               />
@@ -64,14 +62,14 @@ const Products = () => {
       <section className="catalog-section section-padding">
         <div className="container">
           <div className="catalog-filter glass">
-            <span>Filter by Industry:</span>
-            {industries.map(industry => (
+            <span>Filter by Category:</span>
+            {categories.map(category => (
               <button 
-                key={industry} 
-                className={`filter-btn ${activeFilter === industry ? 'active' : ''}`}
-                onClick={() => setActiveFilter(industry)}
+                key={category} 
+                className={`filter-btn ${activeFilter === category ? 'active' : ''}`}
+                onClick={() => setActiveFilter(category)}
               >
-                {industry}
+                {category}
               </button>
             ))}
           </div>

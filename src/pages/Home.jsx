@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Package, Truck, Leaf, ShieldCheck, Box, Award, Settings, ThumbsUp } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { products } from '../productsData';
 
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -27,7 +28,7 @@ function Home() {
               className="hero-title"
               style={{ textTransform: 'uppercase', color: 'white', marginBottom: '1rem', lineHeight: '1.2' }}
             >
-              Custom Packaging <br/> Solutions For Your Business
+              Premium Packaging <br/> Pan-India Delivery
             </motion.h1>
             
             <motion.p 
@@ -37,7 +38,7 @@ function Home() {
               className="hero-subtitle"
               style={{ color: '#E2E8F0', marginBottom: '2.5rem', fontSize: '1.25rem' }}
             >
-              High Quality | Customizable | Sustainable
+              Our massive distribution network ensures that your custom packaging arrives exactly when you need it, anywhere in India. Backed by 500,000+ sq ft of warehousing space.
             </motion.p>
             
             <motion.div 
@@ -54,7 +55,7 @@ function Home() {
           <div style={{ flex: '1 1 300px', display: 'flex', justifyContent: 'center' }}>
             <div className="conic-container" style={{ borderRadius: '24px', padding: '6px', boxShadow: '0 20px 40px rgba(0,0,0,0.3)', width: '100%', maxWidth: '500px', background: 'var(--bg-color)' }}>
               <img 
-                src="images/gen_hero_1784230442874.jpg" 
+                src="images/custom_size.jpg" 
                 alt="Cardboard Boxes" 
                 style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }}
               />
@@ -63,36 +64,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Stats Section (Floating Over Hero) */}
-      <section className="stats-section" style={{ marginTop: '-80px', position: 'relative', zIndex: '10' }}>
-        <div className="container">
-          <motion.div 
-            variants={staggerContainer}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            className="conic-container conic-pill-dark"
-            style={{ boxShadow: '0 20px 40px rgba(15, 37, 72, 0.12)' }}
-          >
-            <div className="stats-grid" style={{ padding: '2rem 3rem' }}>
-            {[
-              { label: 'Premium Quality', value: '15+', icon: <Award /> },
-              { label: 'Custom Solutions', value: '250+', icon: <ThumbsUp /> },
-              { label: 'Eco Friendly', value: '120+', icon: <Package /> },
-              { label: 'Fast Delivery', value: '25+', icon: <Box /> },
-            ].map((stat, i) => (
-              <motion.div key={i} variants={fadeIn} className="stat-card" style={{ flexDirection: 'column', textAlign: 'center', gap: '0.5rem' }}>
-                <div className="stat-icon" style={{ background: 'transparent', color: 'var(--secondary-color)', width: 'auto', height: 'auto', marginBottom: '0.5rem' }}>{stat.icon}</div>
-                <div style={{ zIndex: 2 }}>
-                  <h3 className="stat-value" style={{ color: 'white', fontSize: '2rem', fontFamily: 'Inter, sans-serif', fontWeight: '700' }}>{stat.value}</h3>
-                  <p className="stat-label" style={{ color: '#A0AABF', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '1px', fontWeight: '600' }}>{stat.label}</p>
-                </div>
-              </motion.div>
-            ))}
-            </div>
-          </motion.div>
-        </div>
-      </section>
 
       {/* Company Introduction */}
       <section className="intro-section section-padding bg-alt">
@@ -108,7 +79,7 @@ function Home() {
             >
               <div className="conic-container" style={{ borderRadius: '24px', padding: '4px', width: '100%' }}>
                 <img
-                  src="images/gen_factory_1784230451806.jpg" 
+                  src="images/kraft_paper_reel.jpg" 
                   alt="Corporate Office" 
                   className="about-img-main"
                   style={{ borderRadius: '20px', display: 'block', position: 'relative', zIndex: 2, width: '100%', height: 'auto' }}
@@ -151,7 +122,7 @@ function Home() {
             >
               <div className="conic-container" style={{ borderRadius: '24px', padding: '4px', width: '100%' }}>
                 <img
-                  src="images/gen_factory_1784230451806.jpg" 
+                  src="images/kraft_paper_reel.jpg" 
                   alt="Production Line" 
                   className="about-img-main"
                   style={{ borderRadius: '20px', display: 'block', position: 'relative', zIndex: 2, width: '100%', height: 'auto' }}
@@ -248,7 +219,7 @@ function Home() {
             >
               <div className="conic-container" style={{ borderRadius: '24px', padding: '4px', height: '100%' }}>
                 <img
-                  src="images/gen_rolls_1784230490842.jpg" 
+                  src="images/corrugated_roll.jpg" 
                   alt="Large Manufacturing Facility" 
                   className="about-img-main"
                   style={{ width: '100%', height: 'auto', borderRadius: '20px', display: 'block', position: 'relative', zIndex: 2 }}
@@ -273,24 +244,8 @@ function Home() {
             viewport={{ once: true }}
             className="products-grid"
           >
-            {[
-              {
-                title: 'Corrugated Boxes',
-                desc: 'Heavy-duty shipping cartons for all industries.',
-                img: 'images/gen_hero_1784230442874.jpg'
-              },
-              {
-                title: 'Custom Printed Cartons',
-                desc: 'High-quality offset and flexo printing.',
-                img: 'images/gen_premium_1784230480978.jpg'
-              },
-              {
-                title: 'Eco-Friendly Mailers',
-                desc: '100% recyclable e-commerce solutions.',
-                img: 'images/gen_eco_1784230460993.jpg'
-              }
-            ].map((product, i) => (
-              <motion.div key={i} variants={fadeIn} className="product-card conic-container conic-card" style={{ display: 'flex', flexDirection: 'column' }}>
+            {products.slice(0, 3).map((product, i) => (
+              <motion.div key={product.id} variants={fadeIn} className="product-card conic-container conic-card" style={{ display: 'flex', flexDirection: 'column' }}>
                 <img src={product.img} alt={product.title} style={{ position: 'relative', zIndex: 2, borderRadius: '12px', width: '100%', height: 'auto' }} />
                 <h3 style={{ position: 'relative', zIndex: 2 }}>{product.title}</h3>
                 <p className="text-muted mb-4 mt-2" style={{ position: 'relative', zIndex: 2 }}>{product.desc}</p>
@@ -370,7 +325,7 @@ function Home() {
             >
               <div className="conic-container" style={{ borderRadius: '24px', padding: '4px', width: '100%' }}>
                 <img
-                  src="images/gen_eco_1784230460993.jpg" 
+                  src="images/die_cut_mailer.jpg" 
                   alt="Eco Friendly Packaging" 
                   className="about-img-main"
                   style={{ borderRadius: '20px', display: 'block', position: 'relative', zIndex: 2, width: '100%', height: 'auto' }}
@@ -415,10 +370,10 @@ function Home() {
           <h2 className="section-title mb-4">Industries We Serve</h2>
           <div className="products-grid mt-4" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))' }}>
             {[
-              { name: 'Food & Beverage', img: 'images/gen_eco_1784230460993.jpg' },
-              { name: 'E-Commerce', img: 'images/gen_hero_1784230442874.jpg' },
-              { name: 'Pharmaceuticals', img: 'images/gen_factory_1784230451806.jpg' },
-              { name: 'Electronics', img: 'images/gen_premium_1784230480978.jpg' }
+              { name: 'Food & Beverage', img: 'images/die_cut_mailer.jpg' },
+              { name: 'E-Commerce', img: 'images/custom_size.jpg' },
+              { name: 'Pharmaceuticals', img: 'images/kraft_paper_reel.jpg' },
+              { name: 'Electronics', img: 'images/premium_box.jpg' }
             ].map((industry, i) => (
               <motion.div key={i} variants={fadeIn} initial="hidden" whileInView="visible" viewport={{ once: true }} className="product-card conic-container conic-card" style={{ padding: '1rem', display: 'flex', flexDirection: 'column' }}>
                 <img src={industry.img} alt={industry.name} style={{ width: '100%', height: 'auto', borderRadius: '12px', marginBottom: '1rem', position: 'relative', zIndex: 2 }} />
@@ -485,10 +440,10 @@ function Home() {
         <div className="container">
           <div className="about-grid" style={{ alignItems: 'center' }}>
             <motion.div initial={{ opacity: 0, x: -50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
-              <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0'}}>Global Reach</h4>
+              <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0'}}>Pan-India Reach</h4>
               <h2 className="section-title">Seamless Logistics & Delivery</h2>
               <p className="section-subtitle" style={{margin: '0 0 2rem 0', maxWidth: '100%'}}>
-                Our massive distribution network ensures that your custom packaging arrives exactly when you need it, anywhere in the world. We operate over 500,000 sq ft of warehousing space.
+                Our massive distribution network ensures that your custom packaging arrives exactly when you need it, anywhere in India. We operate over 500,000 sq ft of warehousing space.
               </p>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '2rem', marginBottom: '2rem' }}>
                 <div className="conic-container conic-card" style={{ padding: '1.5rem', textAlign: 'center', display: 'flex', flexDirection: 'column' }}>
@@ -496,14 +451,14 @@ function Home() {
                   <p style={{ color: 'var(--text-muted)', position: 'relative', zIndex: 2 }}>On-Time Delivery Rate</p>
                 </div>
                 <div className="conic-container conic-card" style={{ padding: '1.5rem', textAlign: 'center', display: 'flex', flexDirection: 'column' }}>
-                  <h3 style={{ fontSize: '2rem', color: 'var(--secondary-color)', position: 'relative', zIndex: 2 }}>50+</h3>
-                  <p style={{ color: 'var(--text-muted)', position: 'relative', zIndex: 2 }}>Countries Served</p>
+                  <h3 style={{ fontSize: '2rem', color: 'var(--secondary-color)', position: 'relative', zIndex: 2 }}>100%</h3>
+                  <p style={{ color: 'var(--text-muted)', position: 'relative', zIndex: 2 }}>Pan-India Coverage</p>
                 </div>
               </div>
             </motion.div>
             <motion.div initial={{ opacity: 0, x: 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }}>
               <div className="conic-container" style={{ borderRadius: '24px', padding: '4px', width: '100%', boxShadow: '0 20px 40px rgba(15,37,72,0.1)' }}>
-                <img src="images/gen_logistics_1784230470758.jpg" alt="Logistics Network" style={{ width: '100%', height: 'auto', borderRadius: '20px', display: 'block', position: 'relative', zIndex: 2 }} />
+                <img src="images/standard_corrugated.jpg" alt="Logistics Network" style={{ width: '100%', height: 'auto', borderRadius: '20px', display: 'block', position: 'relative', zIndex: 2 }} />
               </div>
             </motion.div>
           </div>
@@ -550,7 +505,7 @@ function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="cta-section section-padding-large" style={{ backgroundImage: 'url(/images/gen_premium_1784230480978.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', position: 'relative' }}>
+      <section className="cta-section section-padding-large" style={{ backgroundImage: 'url(/images/premium_box.jpg)', backgroundSize: 'cover', backgroundPosition: 'center', position: 'relative' }}>
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'var(--bg-color)', opacity: 0.9, zIndex: 0 }}></div>
         <div className="container" style={{ position: 'relative', zIndex: 1 }}>
           <div className="cta-card conic-container conic-card text-center" style={{ maxWidth: '800px', margin: '0 auto', padding: '4rem' }}>

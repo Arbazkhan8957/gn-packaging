@@ -70,7 +70,7 @@ const Quality = () => {
         <div className="container">
           <div className="about-grid">
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="images/gen_premium_1784230480978.jpg" alt="Certifications" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/premium_box.jpg" alt="Certifications" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="vmi-content">
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>GLOBAL STANDARDS</h4>
@@ -138,7 +138,7 @@ const Quality = () => {
             </div>
 
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="images/gen_eco_1784230460993.jpg" alt="Lab Testing" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/die_cut_mailer.jpg" alt="Lab Testing" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
           </div>
         </div>
@@ -149,7 +149,7 @@ const Quality = () => {
         <div className="container">
           <div className="about-grid">
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%' }}>
-              <img src="images/gen_factory_1784230451806.jpg" alt="Corrugated Manufacturing" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/kraft_paper_reel.jpg" alt="Corrugated Manufacturing" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="vmi-content">
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>CORRUGATED EXCELLENCE</h4>
@@ -394,7 +394,7 @@ const Quality = () => {
         <div className="container">
           <div className="about-grid" style={{ direction: 'rtl' }}>
             <div className="conic-container conic-card" style={{ padding: '4px', height: '100%', direction: 'ltr' }}>
-              <img src="images/gen_logistics_1784230470758.jpg" alt="Quality Team" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
+              <img src="images/standard_corrugated.jpg" alt="Quality Team" style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '16px', position: 'relative', zIndex: 2 }} />
             </div>
             <div className="engineering-content" style={{ direction: 'ltr' }}>
               <h4 className="section-subtitle highlight-accent" style={{margin: '0 0 0.5rem 0', fontWeight: 700, letterSpacing: '2px'}}>THE EXPERTS</h4>
@@ -460,7 +460,7 @@ const Quality = () => {
       {/* Massive CTA Section (Matches Industries Template) */}
       <section className="sample-cta-section section-padding" style={{ position: 'relative', overflow: 'hidden' }}>
         <div className="hero-bg" style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0, opacity: 0.15 }}>
-          <img src="images/gen_hero_1784230442874.jpg" alt="Premium Packaging CTA" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+          <img src="images/custom_size.jpg" alt="Premium Packaging CTA" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
         <div className="container text-center" style={{ position: 'relative', zIndex: 10 }}>
           <div className="conic-container conic-card mx-auto" style={{ maxWidth: '800px', padding: '4rem 2rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>

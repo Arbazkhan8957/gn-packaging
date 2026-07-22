@@ -1,772 +1,111 @@
 export const products = [
+  // Corrugated Boxes
   {
     "id": 1,
-    "title": "Eco-Friendly Pallet Wraps (Type B)",
-    "desc": "Essential eco-friendly pallet wraps offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_1.jpg",
-    "features": [
-      "High Durability",
-      "Moisture Resistant",
-      "Shock Absorbing"
-    ]
+    "title": "Standard Corrugated Box",
+    "category": "Corrugated Boxes",
+    "desc": "Durable and reliable open top standard corrugated boxes for universal packaging and shipping needs.",
+    "img": "images/standard_corrugated.jpg",
+    "features": ["High Durability", "Stackable", "Eco-Friendly"]
   },
   {
     "id": 2,
-    "title": "Rigid Mailer Envelopes (Type C)",
-    "desc": "Essential rigid mailer envelopes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_2.jpg",
-    "features": [
-      "Space Saving",
-      "Stackable",
-      "Tear Resistant"
-    ]
+    "title": "Custom Size Box",
+    "category": "Corrugated Boxes",
+    "desc": "Tailor-made large custom size corrugated boxes designed to perfectly fit your unique product dimensions.",
+    "img": "images/custom_size.jpg",
+    "features": ["Exact Fit", "High Load Bearing", "Space Saving"]
   },
+  
+  // Custom & Specialty Boxes
   {
     "id": 3,
-    "title": "Lightweight Mailer Envelopes (Type D)",
-    "desc": "Essential lightweight mailer envelopes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_3.jpg",
-    "features": [
-      "Tear Resistant",
-      "Space Saving",
-      "Stackable"
-    ]
+    "title": "Die-Cut Mailer Box",
+    "category": "Custom & Specialty Boxes",
+    "desc": "Clean white die-cut folding mailer boxes with a locking tab for secure and professional e-commerce shipping.",
+    "img": "images/die_cut_mailer.jpg",
+    "features": ["Self-Locking Design", "Premium Unboxing", "Custom Printable"]
   },
   {
     "id": 4,
-    "title": "Custom Stand-up Pouches (Type E)",
-    "desc": "Essential custom stand-up pouches offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_4.jpg",
-    "features": [
-      "Space Saving",
-      "Easy Assembly",
-      "Custom Printable"
-    ]
+    "title": "Premium Custom Design Box",
+    "category": "Custom & Specialty Boxes",
+    "desc": "Luxury rigid boxes with premium textures and foil stamping for high-end retail products.",
+    "img": "images/premium_box.jpg",
+    "features": ["Luxury Feel", "Rigid Structure", "Brand Enhancement"]
   },
   {
     "id": 5,
-    "title": "Rigid Void Fill (Type F)",
-    "desc": "Essential rigid void fill offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_5.jpg",
-    "features": [
-      "Space Saving",
-      "Sustainable",
-      "Custom Printable"
-    ]
+    "title": "Fruit Packaging Box",
+    "category": "Custom & Specialty Boxes",
+    "desc": "Premium printed corrugated fruit packaging boxes designed specifically for fresh produce.",
+    "img": "images/fruit_box.jpg",
+    "features": ["Ventilated Design", "Moisture Resistant", "Food Grade Safe"]
   },
   {
     "id": 6,
-    "title": "Biodegradable Kraft Bags (Type G)",
-    "desc": "Essential biodegradable kraft bags offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_6.jpg",
-    "features": [
-      "Moisture Resistant",
-      "High Durability",
-      "Space Saving"
-    ]
+    "title": "Shoe Box",
+    "category": "Custom & Specialty Boxes",
+    "desc": "Standard 2-piece cardboard shoe boxes with a secure lid, perfect for retail footwear packaging.",
+    "img": "images/shoe_box.jpg",
+    "features": ["Sturdy Base", "Custom Branding", "Retail Ready"]
   },
   {
     "id": 7,
-    "title": "Rigid Die-cut Boxes (Type H)",
-    "desc": "Essential rigid die-cut boxes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_7.jpg",
-    "features": [
-      "Easy Assembly",
-      "Moisture Resistant",
-      "FDA Approved"
-    ]
+    "title": "White Duplex Window Box",
+    "category": "Custom & Specialty Boxes",
+    "desc": "Elegant white duplex cardboard boxes with a transparent display window for retail showcasing.",
+    "img": "images/white_duplex.jpg",
+    "features": ["Product Visibility", "Clean Aesthetic", "Shelf Ready"]
   },
   {
     "id": 8,
-    "title": "Flexible Carton Sealing Tape (Type I)",
-    "desc": "Essential flexible carton sealing tape offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_8.jpg",
-    "features": [
-      "Shock Absorbing",
-      "FDA Approved",
-      "Space Saving"
-    ]
+    "title": "Handle Box",
+    "category": "Custom & Specialty Boxes",
+    "desc": "Closed corrugated cardboard boxes equipped with a strong plastic carrying handle for easy transport.",
+    "img": "images/handle_box.jpg",
+    "features": ["Easy Carrying", "Secure Closure", "Convenient"]
   },
+
+  // Raw Materials & Supplies
   {
     "id": 9,
-    "title": "Rigid Mailing Tubes (Type J)",
-    "desc": "Essential rigid mailing tubes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_9.jpg",
-    "features": [
-      "Custom Printable",
-      "Tear Resistant",
-      "Shock Absorbing"
-    ]
+    "title": "Corrugated Sheet",
+    "category": "Raw Materials",
+    "desc": "Flat corrugated cardboard sheets used as layer pads, dividers, or for custom box manufacturing.",
+    "img": "images/corrugated_sheet.jpg",
+    "features": ["Versatile Use", "Shock Absorbing", "Various Flute Sizes"]
   },
   {
     "id": 10,
-    "title": "Custom Stretch Film (Type K)",
-    "desc": "Essential custom stretch film offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_10.jpg",
-    "features": [
-      "Easy Assembly",
-      "Shock Absorbing",
-      "Sustainable"
-    ]
+    "title": "Corrugated Roll",
+    "category": "Raw Materials",
+    "desc": "Large rolls of single-face corrugated cardboard for wrapping, cushioning, and protecting fragile items.",
+    "img": "images/corrugated_roll.jpg",
+    "features": ["Flexible Wrapping", "Impact Protection", "Custom Lengths"]
   },
   {
     "id": 11,
-    "title": "Lightweight Display Boxes (Type L)",
-    "desc": "Essential lightweight display boxes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_11.jpg",
-    "features": [
-      "Moisture Resistant",
-      "Custom Printable",
-      "Easy Assembly"
-    ]
+    "title": "Honeycomb Board",
+    "category": "Raw Materials",
+    "desc": "Thick honeycomb structural cardboard boards offering exceptional strength-to-weight ratio for industrial use.",
+    "img": "images/honeycomb_board.jpg",
+    "features": ["Extreme Strength", "Lightweight", "Eco-Friendly Core"]
   },
   {
     "id": 12,
-    "title": "Heavy-Duty Stand-up Pouches (Type M)",
-    "desc": "Essential heavy-duty stand-up pouches offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_12.jpg",
-    "features": [
-      "Moisture Resistant",
-      "Custom Printable",
-      "Stackable"
-    ]
+    "title": "Kraft Paper Reel",
+    "category": "Raw Materials",
+    "desc": "Giant industrial reels of high-quality brown kraft paper for manufacturing and void fill applications.",
+    "img": "images/kraft_paper_reel.jpg",
+    "features": ["High Tear Resistance", "Bulk Supply", "100% Recyclable"]
   },
   {
     "id": 13,
-    "title": "Lightweight Packing Peanuts (Type N)",
-    "desc": "Essential lightweight packing peanuts offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_13.jpg",
-    "features": [
-      "Space Saving",
-      "Tear Resistant",
-      "Easy Assembly"
-    ]
-  },
-  {
-    "id": 14,
-    "title": "Waterproof Mailing Tubes (Type O)",
-    "desc": "Essential waterproof mailing tubes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_14.jpg",
-    "features": [
-      "Space Saving",
-      "Easy Assembly",
-      "Shock Absorbing"
-    ]
-  },
-  {
-    "id": 15,
-    "title": "Lightweight Pallet Wraps (Type P)",
-    "desc": "Essential lightweight pallet wraps offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_15.jpg",
-    "features": [
-      "Moisture Resistant",
-      "Stackable",
-      "Custom Printable"
-    ]
-  },
-  {
-    "id": 16,
-    "title": "Eco-Friendly Pallet Wraps (Type Q)",
-    "desc": "Essential eco-friendly pallet wraps offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_16.jpg",
-    "features": [
-      "Moisture Resistant",
-      "Tear Resistant",
-      "Space Saving"
-    ]
-  },
-  {
-    "id": 17,
-    "title": "Recyclable Void Fill (Type R)",
-    "desc": "Essential recyclable void fill offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_17.jpg",
-    "features": [
-      "Tear Resistant",
-      "Space Saving",
-      "Custom Printable"
-    ]
-  },
-  {
-    "id": 18,
-    "title": "Eco-Friendly Mailer Envelopes (Type S)",
-    "desc": "Essential eco-friendly mailer envelopes offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_18.jpg",
-    "features": [
-      "FDA Approved",
-      "Custom Printable",
-      "Tear Resistant"
-    ]
-  },
-  {
-    "id": 19,
-    "title": "Heavy-Duty Pallet Wraps (Type T)",
-    "desc": "Essential heavy-duty pallet wraps offering superior protection for transit and storage. Reliable and cost-effective.",
-    "img": "images/new_grid_19.jpg",
-    "features": [
-      "Tear Resistant",
-      "Shock Absorbing",
-      "Sustainable"
-    ]
-  },
-  {
-    "id": 20,
-    "title": "Heavy-Duty Mailing Tubes (Type U)",
-    "desc": "Specialized heavy-duty mailing tubes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_20.jpg",
-    "features": [
-      "Space Saving",
-      "FDA Approved",
-      "Shock Absorbing"
-    ]
-  },
-  {
-    "id": 21,
-    "title": "Premium Pallet Wraps (Type V)",
-    "desc": "Specialized premium pallet wraps tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_21.jpg",
-    "features": [
-      "Tear Resistant",
-      "FDA Approved",
-      "Space Saving"
-    ]
-  },
-  {
-    "id": 22,
-    "title": "Lightweight Carton Sealing Tape (Type W)",
-    "desc": "Specialized lightweight carton sealing tape tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_22.jpg",
-    "features": [
-      "Custom Printable",
-      "Easy Assembly",
-      "High Durability"
-    ]
-  },
-  {
-    "id": 23,
-    "title": "Thermal Foam Inserts (Type X)",
-    "desc": "Specialized thermal foam inserts tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_23.jpg",
-    "features": [
-      "Tear Resistant",
-      "FDA Approved",
-      "Custom Printable"
-    ]
-  },
-  {
-    "id": 24,
-    "title": "Industrial Pallet Wraps (Type Y)",
-    "desc": "Specialized industrial pallet wraps tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_24.jpg",
-    "features": [
-      "Tear Resistant",
-      "Custom Printable",
-      "Sustainable"
-    ]
-  },
-  {
-    "id": 25,
-    "title": "Biodegradable Die-cut Boxes (Type Z)",
-    "desc": "Specialized biodegradable die-cut boxes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_25.jpg",
-    "features": [
-      "Tear Resistant",
-      "Easy Assembly",
-      "Stackable"
-    ]
-  },
-  {
-    "id": 26,
-    "title": "Custom Shipping Boxes (Type A)",
-    "desc": "Specialized custom shipping boxes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_26.jpg",
-    "features": [
-      "Sustainable",
-      "FDA Approved",
-      "Custom Printable"
-    ]
-  },
-  {
-    "id": 27,
-    "title": "Heavy-Duty Mailing Tubes (Type B)",
-    "desc": "Specialized heavy-duty mailing tubes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_27.jpg",
-    "features": [
-      "Sustainable",
-      "FDA Approved",
-      "Custom Printable"
-    ]
-  },
-  {
-    "id": 28,
-    "title": "Heavy-Duty Stand-up Pouches (Type C)",
-    "desc": "Specialized heavy-duty stand-up pouches tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_28.jpg",
-    "features": [
-      "Tear Resistant",
-      "Space Saving",
-      "Shock Absorbing"
-    ]
-  },
-  {
-    "id": 29,
-    "title": "Corrugated Die-cut Boxes (Type D)",
-    "desc": "Specialized corrugated die-cut boxes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_29.jpg",
-    "features": [
-      "Shock Absorbing",
-      "Tear Resistant",
-      "Moisture Resistant"
-    ]
-  },
-  {
-    "id": 30,
-    "title": "Retail Food Containers (Type E)",
-    "desc": "Specialized retail food containers tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_30.jpg",
-    "features": [
-      "Sustainable",
-      "Shock Absorbing",
-      "Tear Resistant"
-    ]
-  },
-  {
-    "id": 31,
-    "title": "Custom Pallet Wraps (Type F)",
-    "desc": "Specialized custom pallet wraps tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_31.jpg",
-    "features": [
-      "FDA Approved",
-      "Shock Absorbing",
-      "Space Saving"
-    ]
-  },
-  {
-    "id": 32,
-    "title": "Rigid Pallet Wraps (Type G)",
-    "desc": "Specialized rigid pallet wraps tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_32.jpg",
-    "features": [
-      "Sustainable",
-      "Stackable",
-      "Tear Resistant"
-    ]
-  },
-  {
-    "id": 33,
-    "title": "Corrugated Stretch Film (Type H)",
-    "desc": "Specialized corrugated stretch film tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_33.jpg",
-    "features": [
-      "Easy Assembly",
-      "FDA Approved",
-      "Moisture Resistant"
-    ]
-  },
-  {
-    "id": 34,
-    "title": "Industrial Bubble Wrap (Type I)",
-    "desc": "Specialized industrial bubble wrap tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_34.jpg",
-    "features": [
-      "Stackable",
-      "Moisture Resistant",
-      "Sustainable"
-    ]
-  },
-  {
-    "id": 35,
-    "title": "Recyclable Mailer Envelopes (Type J)",
-    "desc": "Specialized recyclable mailer envelopes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_35.jpg",
-    "features": [
-      "Stackable",
-      "FDA Approved",
-      "High Durability"
-    ]
-  },
-  {
-    "id": 36,
-    "title": "Flexible Shipping Boxes (Type K)",
-    "desc": "Specialized flexible shipping boxes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_36.jpg",
-    "features": [
-      "Easy Assembly",
-      "Tear Resistant",
-      "FDA Approved"
-    ]
-  },
-  {
-    "id": 37,
-    "title": "Waterproof Mailing Tubes (Type L)",
-    "desc": "Specialized waterproof mailing tubes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_37.jpg",
-    "features": [
-      "Custom Printable",
-      "Sustainable",
-      "High Durability"
-    ]
-  },
-  {
-    "id": 38,
-    "title": "Lightweight Mailing Tubes (Type M)",
-    "desc": "Specialized lightweight mailing tubes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_38.jpg",
-    "features": [
-      "Easy Assembly",
-      "Space Saving",
-      "FDA Approved"
-    ]
-  },
-  {
-    "id": 39,
-    "title": "Heavy-Duty Die-cut Boxes (Type N)",
-    "desc": "Specialized heavy-duty die-cut boxes tailored for e-commerce and retail businesses. Enhances brand unboxing experience.",
-    "img": "images/new_grid_39.jpg",
-    "features": [
-      "Sustainable",
-      "Tear Resistant",
-      "High Durability"
-    ]
-  },
-  {
-    "id": 40,
-    "title": "Luxury Foam Inserts (Type O)",
-    "desc": "Advanced luxury foam inserts with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_40.jpg",
-    "features": [
-      "FDA Approved",
-      "Stackable",
-      "Moisture Resistant"
-    ]
-  },
-  {
-    "id": 41,
-    "title": "Biodegradable Bubble Wrap (Type P)",
-    "desc": "Advanced biodegradable bubble wrap with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_41.jpg",
-    "features": [
-      "FDA Approved",
-      "High Durability",
-      "Sustainable"
-    ]
-  },
-  {
-    "id": 42,
-    "title": "Biodegradable Food Containers (Type Q)",
-    "desc": "Advanced biodegradable food containers with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_42.jpg",
-    "features": [
-      "Stackable",
-      "Tear Resistant",
-      "Shock Absorbing"
-    ]
-  },
-  {
-    "id": 43,
-    "title": "Eco-Friendly Foam Inserts (Type R)",
-    "desc": "Advanced eco-friendly foam inserts with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_43.jpg",
-    "features": [
-      "FDA Approved",
-      "Moisture Resistant",
-      "Easy Assembly"
-    ]
-  },
-  {
-    "id": 44,
-    "title": "Retail Stand-up Pouches (Type S)",
-    "desc": "Advanced retail stand-up pouches with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_44.jpg",
-    "features": [
-      "Easy Assembly",
-      "FDA Approved",
-      "Stackable"
-    ]
-  },
-  {
-    "id": 45,
-    "title": "Wholesale Food Containers (Type T)",
-    "desc": "Advanced wholesale food containers with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_45.jpg",
-    "features": [
-      "Sustainable",
-      "Tear Resistant",
-      "High Durability"
-    ]
-  },
-  {
-    "id": 46,
-    "title": "Eco-Friendly Kraft Bags (Type U)",
-    "desc": "Advanced eco-friendly kraft bags with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_46.jpg",
-    "features": [
-      "Easy Assembly",
-      "Custom Printable",
-      "Sustainable"
-    ]
-  },
-  {
-    "id": 47,
-    "title": "Lightweight Shipping Boxes (Type V)",
-    "desc": "Advanced lightweight shipping boxes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_47.jpg",
-    "features": [
-      "Tear Resistant",
-      "Shock Absorbing",
-      "Stackable"
-    ]
-  },
-  {
-    "id": 48,
-    "title": "Waterproof Foam Inserts (Type W)",
-    "desc": "Advanced waterproof foam inserts with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_48.jpg",
-    "features": [
-      "Stackable",
-      "FDA Approved",
-      "Easy Assembly"
-    ]
-  },
-  {
-    "id": 49,
-    "title": "Lightweight Kraft Bags (Type X)",
-    "desc": "Advanced lightweight kraft bags with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_49.jpg",
-    "features": [
-      "Sustainable",
-      "Space Saving",
-      "Custom Printable"
-    ]
-  },
-  {
-    "id": 50,
-    "title": "Protective Mailer Envelopes (Type Y)",
-    "desc": "Advanced protective mailer envelopes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_50.jpg",
-    "features": [
-      "Space Saving",
-      "Custom Printable",
-      "FDA Approved"
-    ]
-  },
-  {
-    "id": 51,
-    "title": "Custom Pallet Wraps (Type Z)",
-    "desc": "Advanced custom pallet wraps with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_51.jpg",
-    "features": [
-      "Tear Resistant",
-      "Sustainable",
-      "High Durability"
-    ]
-  },
-  {
-    "id": 52,
-    "title": "Luxury Mailing Tubes (Type A)",
-    "desc": "Advanced luxury mailing tubes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_52.jpg",
-    "features": [
-      "Moisture Resistant",
-      "Custom Printable",
-      "Shock Absorbing"
-    ]
-  },
-  {
-    "id": 53,
-    "title": "Custom Shipping Boxes (Type B)",
-    "desc": "Advanced custom shipping boxes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_53.jpg",
-    "features": [
-      "Tear Resistant",
-      "Sustainable",
-      "Stackable"
-    ]
-  },
-  {
-    "id": 54,
-    "title": "Retail Stretch Film (Type C)",
-    "desc": "Advanced retail stretch film with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_54.jpg",
-    "features": [
-      "High Durability",
-      "Sustainable",
-      "Stackable"
-    ]
-  },
-  {
-    "id": 55,
-    "title": "Rigid Die-cut Boxes (Type D)",
-    "desc": "Advanced rigid die-cut boxes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_55.jpg",
-    "features": [
-      "Shock Absorbing",
-      "High Durability",
-      "Sustainable"
-    ]
-  },
-  {
-    "id": 56,
-    "title": "Premium Stand-up Pouches (Type E)",
-    "desc": "Advanced premium stand-up pouches with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_56.jpg",
-    "features": [
-      "Sustainable",
-      "High Durability",
-      "Space Saving"
-    ]
-  },
-  {
-    "id": 57,
-    "title": "Retail Shipping Boxes (Type F)",
-    "desc": "Advanced retail shipping boxes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_57.jpg",
-    "features": [
-      "Shock Absorbing",
-      "Tear Resistant",
-      "Moisture Resistant"
-    ]
-  },
-  {
-    "id": 58,
-    "title": "Heavy-Duty Mailing Tubes (Type G)",
-    "desc": "Advanced heavy-duty mailing tubes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_58.jpg",
-    "features": [
-      "Shock Absorbing",
-      "Space Saving",
-      "Easy Assembly"
-    ]
-  },
-  {
-    "id": 59,
-    "title": "Rigid Mailer Envelopes (Type H)",
-    "desc": "Advanced rigid mailer envelopes with reinforced materials to safeguard delicate or heavy industrial goods.",
-    "img": "images/new_grid_59.jpg",
-    "features": [
-      "Space Saving",
-      "Shock Absorbing",
-      "Sustainable"
-    ]
-  },
-  {
-    "id": 60,
-    "title": "Retail Mailer Envelopes (Type I)",
-    "desc": "Top-quality retail mailer envelopes designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "images/new_grid_60.jpg",
-    "features": [
-      "FDA Approved",
-      "Shock Absorbing",
-      "High Durability"
-    ]
-  },
-  {
-    "id": 61,
-    "title": "Heavy-Duty Display Boxes (Type J)",
-    "desc": "Top-quality heavy-duty display boxes designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "images/new_grid_61.jpg",
-    "features": [
-      "Custom Printable",
-      "High Durability",
-      "Easy Assembly"
-    ]
-  },
-  {
-    "id": 62,
-    "title": "Corrugated Bubble Wrap (Type K)",
-    "desc": "Top-quality corrugated bubble wrap designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "images/new_grid_62.jpg",
-    "features": [
-      "Easy Assembly",
-      "Stackable",
-      "Tear Resistant"
-    ]
-  },
-  {
-    "id": 63,
-    "title": "Industrial Bubble Wrap (Type L)",
-    "desc": "Top-quality industrial bubble wrap designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "images/new_grid_63.jpg",
-    "features": [
-      "High Durability",
-      "Space Saving",
-      "Easy Assembly"
-    ]
-  },
-  {
-    "id": 64,
-    "title": "Waterproof Packing Peanuts (Type M)",
-    "desc": "Top-quality waterproof packing peanuts designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "images/new_grid_64.jpg",
-    "features": [
-      "Tear Resistant",
-      "Easy Assembly",
-      "Custom Printable"
-    ]
-  },
-  {
-    "id": 65,
-    "title": "Recyclable Stand-up Pouches (Type N)",
-    "desc": "Top-quality recyclable stand-up pouches designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "images/new_grid_65.jpg",
-    "features": [
-      "Moisture Resistant",
-      "Custom Printable",
-      "Tear Resistant"
-    ]
-  },
-  {
-    "id": 66,
-    "title": "Heavy-Duty Foam Inserts (Type O)",
-    "desc": "Top-quality heavy-duty foam inserts designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "images/new_grid_66.jpg",
-    "features": [
-      "Moisture Resistant",
-      "Tear Resistant",
-      "Sustainable"
-    ]
-  },
-  {
-    "id": 67,
-    "title": "Luxury Kraft Bags (Type P)",
-    "desc": "Top-quality luxury kraft bags designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "images/new_grid_67.jpg",
-    "features": [
-      "Space Saving",
-      "Moisture Resistant",
-      "Custom Printable"
-    ]
-  },
-  {
-    "id": 68,
-    "title": "Custom Food Containers (Type Q)",
-    "desc": "Top-quality custom food containers designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "images/new_grid_68.jpg",
-    "features": [
-      "Tear Resistant",
-      "Sustainable",
-      "Space Saving"
-    ]
-  },
-  {
-    "id": 69,
-    "title": "Retail Mailing Tubes (Type R)",
-    "desc": "Top-quality retail mailing tubes designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "images/new_grid_69.jpg",
-    "features": [
-      "FDA Approved",
-      "Space Saving",
-      "Stackable"
-    ]
-  },
-  {
-    "id": 70,
-    "title": "Wholesale Stretch Film (Type S)",
-    "desc": "Top-quality wholesale stretch film designed for secure and efficient packaging. Perfect for various industries.",
-    "img": "images/new_grid_70.jpg",
-    "features": [
-      "Tear Resistant",
-      "Space Saving",
-      "Custom Printable"
-    ]
+    "title": "L-Shape Angle Board",
+    "category": "Raw Materials",
+    "desc": "Rigid L-shape edge cardboard angle boards to protect pallet edges and reinforce stacking strength.",
+    "img": "images/angle_board.jpg",
+    "features": ["Edge Protection", "Prevents Strap Damage", "Stacking Support"]
   }
 ];

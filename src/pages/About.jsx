@@ -84,7 +84,7 @@ const About = () => {
             
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeIn} style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
               <div className="conic-container" style={{ borderRadius: '24px', padding: '6px', width: '100%', background: 'var(--bg-color)' }}>
-                <img src="images/gen_logistics_1784230470758.jpg" alt="Factory Conveyor Line" style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }} />
+                <img src="images/standard_corrugated.jpg" alt="Factory Conveyor Line" style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }} />
               </div>
               <div className="conic-container conic-card" style={{ padding: '2rem', textAlign: 'center', borderRadius: '20px' }}>
                 <span style={{ position: 'relative', zIndex: 2, display: 'block', fontSize: '3.5rem', fontWeight: 800, color: 'var(--primary-light)', lineHeight: 1, marginBottom: '0.5rem' }}>15+</span>
@@ -115,14 +115,14 @@ const About = () => {
                 </p>
               </div>
               <div className="conic-container" style={{ borderRadius: '24px', padding: '6px', width: '100%', background: 'var(--bg-color)', height: '100%' }}>
-                <img src="images/gen_premium_1784230480978.jpg" alt="Fragile Delivery Box" style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }} />
+                <img src="images/premium_box.jpg" alt="Fragile Delivery Box" style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }} />
               </div>
             </motion.div>
 
             {/* Vision Row */}
             <motion.div variants={fadeIn} initial="hidden" whileInView="visible" viewport={{ once: true }} style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))', gap: '3rem', alignItems: 'center' }}>
               <div className="conic-container" style={{ borderRadius: '24px', padding: '6px', width: '100%', background: 'var(--bg-color)', height: '100%', order: -1 }}>
-                <img src="images/gen_eco_1784230460993.jpg" alt="Eco Friendly Packing Peanuts" style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }} />
+                <img src="images/die_cut_mailer.jpg" alt="Eco Friendly Packing Peanuts" style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }} />
               </div>
               <div className="vm-card conic-container conic-card" style={{ padding: '3.5rem', display: 'flex', flexDirection: 'column', height: '100%', justifyContent: 'center' }}>
                 <div className="vm-icon" style={{ display: 'inline-flex', padding: '1.25rem', borderRadius: '50%', background: 'rgba(59, 130, 246, 0.1)', color: 'var(--primary-light)', marginBottom: '1.5rem', position: 'relative', zIndex: 2, width: 'fit-content' }}><Lightbulb size={40} /></div>
@@ -164,7 +164,7 @@ const About = () => {
 
             <motion.div variants={fadeIn} initial="hidden" whileInView="visible" viewport={{ once: true }}>
               <div className="conic-container" style={{ borderRadius: '24px', padding: '6px', width: '100%', background: 'var(--bg-color)', height: '100%' }}>
-                <img src="images/gen_eco_1784230460993.jpg" alt="Open Box with Bubble Wrap" style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }} />
+                <img src="images/die_cut_mailer.jpg" alt="Open Box with Bubble Wrap" style={{ width: '100%', height: 'auto', borderRadius: '18px', display: 'block', position: 'relative', zIndex: 2 }} />
               </div>
             </motion.div>
           </div>
@@ -228,13 +228,13 @@ const About = () => {
 
           <div className="factory-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
             <div className="conic-container" style={{ borderRadius: '16px', padding: '6px', background: 'var(--bg-color)', height: '100%' }}>
-              <img src="images/gen_hero_1784230442874.jpg" alt="Stacked Cardboard Boxes" style={{ width: '100%', height: 'auto', borderRadius: '12px', position: 'relative', zIndex: 2, display: 'block' }} />
+              <img src="images/custom_size.jpg" alt="Stacked Cardboard Boxes" style={{ width: '100%', height: 'auto', borderRadius: '12px', position: 'relative', zIndex: 2, display: 'block' }} />
             </div>
             <div className="conic-container" style={{ borderRadius: '16px', padding: '6px', background: 'var(--bg-color)', height: '100%' }}>
-              <img src="images/gen_rolls_1784230490842.jpg" alt="Cardboard Rolls and Materials" style={{ width: '100%', height: 'auto', borderRadius: '12px', position: 'relative', zIndex: 2, display: 'block' }} />
+              <img src="images/corrugated_roll.jpg" alt="Cardboard Rolls and Materials" style={{ width: '100%', height: 'auto', borderRadius: '12px', position: 'relative', zIndex: 2, display: 'block' }} />
             </div>
             <div className="conic-container" style={{ borderRadius: '16px', padding: '6px', background: 'var(--bg-color)', height: '100%' }}>
-              <img src="images/gen_logistics_1784230470758.jpg" alt="Loading Shipping Container" style={{ width: '100%', height: 'auto', borderRadius: '12px', position: 'relative', zIndex: 2, display: 'block' }} />
+              <img src="images/standard_corrugated.jpg" alt="Loading Shipping Container" style={{ width: '100%', height: 'auto', borderRadius: '12px', position: 'relative', zIndex: 2, display: 'block' }} />
             </div>
           </div>
           <div className="text-center mt-3">
