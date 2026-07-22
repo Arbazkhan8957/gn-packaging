@@ -35,20 +35,6 @@ const Navbar = ({ theme, toggleTheme }) => {
 
   return (
     <header className={`navbar-wrapper ${scrolled ? 'scrolled' : ''}`}>
-      {/* Top Bar */}
-      <div className="top-bar">
-        <div className="container top-bar-container">
-          <div className="top-bar-left">
-            <a href="tel:+919224622911"><Phone size={14} /> +91 9224622911</a>
-            <a href="mailto:gnpackaging786@gmail.com"><Mail size={14} /> gnpackaging786@gmail.com</a>
-            <span><FileText size={14} /> GSTIN: 27AOKPK4980P1Z2</span>
-          </div>
-          <div className="top-bar-right">
-            <span><Clock size={14} /> Mon - Sat: 8:00 AM - 8:00 PM • Sunday Closed</span>
-          </div>
-        </div>
-      </div>
-
       <nav className="navbar container">
         
         {/* Brand Logo */}

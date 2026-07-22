@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Package, MapPin, Phone, Mail, ArrowRight, MessageCircle, FileText, CheckCircle } from 'lucide-react';
+import { Package, MapPin, Phone, Mail, ArrowRight, MessageCircle, FileText, CheckCircle, Clock } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -86,6 +86,10 @@ const Footer = () => {
                 <li style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
                   <Mail size={20} style={{ color: 'var(--primary-light)', flexShrink: 0 }} />
                   <a href="mailto:gnpackaging786@gmail.com" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none' }}>gnpackaging786@gmail.com</a>
+                </li>
+                <li style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                  <Clock size={20} style={{ color: 'var(--primary-light)', flexShrink: 0 }} />
+                  <span style={{ color: 'rgba(255,255,255,0.7)' }}>Mon - Sat: 8:00 AM - 8:00 PM<br/>Sunday Closed</span>
                 </li>
               </ul>
             </div>
